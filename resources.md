@@ -18,13 +18,13 @@ nav_order: 6
   * Monitor opex and capex of the org
   * Planning budget
 
-### Professional Development Budget
+## Professional Development Budget
 
 - Allocate a budget for each team member's professional development.
 - Encourage attendance at conferences, workshops, and online courses.
 - Support certifications relevant to your team's work.
 
-### Compensation (cash/stock)
+## Compensation (cash/stock)
 
   * Stack ranking, key players, and cost of replacement  
     * Every 6 months, Sept/Feb, at the same time as the leveling. Team mgmt will stack rank all the engineers. Yaron/Riffat/Marco will make the comp adjustments, and Marco will communicate with the engineers.  

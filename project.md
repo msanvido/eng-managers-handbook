@@ -5,16 +5,17 @@ nav_order: 5
 ---
 
 {: .no_toc }
-## Project Management
+# Project Management
 
 This section is about managing projects and teams deliverables.
 
+{: .no_toc }
 ## Table of Contents
-
 
 1. TOC
 {:toc}
-### Goals
+
+## Goals
 
 Deliver the product as agreed with the PM (PM decided the **what,** eng responsible for the **who, how and when)**
 
@@ -23,7 +24,7 @@ Deliver the product as agreed with the PM (PM decided the **what,** eng responsi
     * help hire for the needed resources  
     * manage/budget resources (laptops, aws spent, gcp) needed to achieve success (example C2s)
 
-### Tools
+## Tools
 
   * **Linear**: This is your tool to monitor both people and projects progress. Track backlogs, tech debt… etc. This is YOUR tool for success and company success. Spend at least 15-30min a week to keep it up to date and clean.  
   * **PRDs/Roadmap Review**: PM requirements for what you need to build. Getting clarity on this and push back on is your and team lead job. Once accepted, you are accountable for delivering it\!  
@@ -39,7 +40,7 @@ Deliver the product as agreed with the PM (PM decided the **what,** eng responsi
   * **Follow established processes and always try to improve**: See the laffer curve of process  
     * Make sure every team member understands the process and executes on them. The only worst thing about having no processes is having processes and only a few follow them.
 
-### Technical Debt Management
+## Technical Debt Management
 
 Develop a strategy for managing technical debt:
 
@@ -47,7 +48,7 @@ Develop a strategy for managing technical debt:
 - Create a technical debt backlog and prioritize items based on impact.
 - Educate stakeholders about the importance of managing technical debt.
 
-### Releases
+## Releases
 
   * Changes in the right branch, in the right window  
   * Commit hygiene and PR reviews  
@@ -57,21 +58,21 @@ Develop a strategy for managing technical debt:
   * Documentation \- make sure tech writer is aware of all the doc needed  
   * Testing and Release Criteria (Devprod is your assistant, not your fixer\!)
 
-### Communication
+## Communication
 
   * Communicate status upwards: To avoid surprises and be sure of alignment\!  
     * **Close the loop**\! **Always Always** report back when things are completed/executed. i.e. Yaron asks you to do something, once you have done it, close the loop\! Upper management doesn’t want to keep asking you (has it been done yet\!\!\!)  
   * Communicate sidewise (other teams): make sure there is no double efforts, no unknown dependencies, managing resources (i.e., avoid the tragedy of the commons) during eng-staff sync up)  
   * Communicate to your customers: **the PMs**
 
-### Delegation and Decision Making
+## Delegation and Decision Making
 
   * Delegate but not abdicated\! i.e., keep track of progress, especially of junior eng. Make sure they have the tools to succeed.  
   * Delegate ownership, not tasks  
   * Do not delegate everything…. that’s not leadership that authoritarian\! Be in the trances\!  
   * Companies are benevolent dictatorships: Ask for opinions, but ultimately, the decision is yours and the tech lead. You are responsible for the team… not the ICs\!
 
-### Quality
+## Quality
 
   * **Testing Testing**: **NOBODY WILL EVER TELL YOU YOU TESTING TO MUCH\!**  
     * regression, unit, system tests, etc….  
@@ -79,7 +80,7 @@ Develop a strategy for managing technical debt:
   * Lifetime and Maintainance:  
     * Once shipped is not forgotten\!\!\! You own it forever\!
 
-### On-call Management
+## On-call Management
 
   * People on call rotation: trained and qualified.  
   * Account for on-call in the cycles planning  

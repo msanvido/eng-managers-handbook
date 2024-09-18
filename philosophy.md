@@ -1,18 +1,10 @@
 ---
-title: Philosophy
+title: What is Management
 layout: home
 nav_order: 3
 ---
 {: .no_toc }
-# Philosophy
-
-{: .no_toc }
-## Table of Contents
-
-1. TOC
-{:toc}
-
-## Goals
+# What is Management
 
 What all managers have in common is our commitment to helping their direct reports to:
 
@@ -31,7 +23,6 @@ Sometime people assume that to achieve the above they need to be liked, but this
 
 Consistency meaning: cleary define who (usally you or the team leader) is the ultimate decision maker in the decision making process.
 Respect: that the team understand that you have the necessary authority and udnerstanding to make the decision and that you will be held accountable for the decision.
-
 
 
 Successful engineering managers embody the following qualities:
