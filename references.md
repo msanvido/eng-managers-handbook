@@ -15,8 +15,10 @@ nav_order: 10
 ## Templates and Resources
 
 * Vacations Requests: Examples of how to track time-off  
-* Code of Of Conducts Example: [https://app.vanta.com/policies/code-of-conduct-bsi](https://app.vanta.com/policies/code-of-conduct-bsi)  
-* OKRs: WIP  
+* Code of Of Conducts Example: [code-of-conduct-bsi](https://app.vanta.com/policies/code-of-conduct-bsi) 
+* Managements:
+    * OKRs: WIP  
+    * DARE and RACI: [RACI vs DARE](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/the-limits-of-raci-and-a-better-way-to-make-decisions)
 * Performance reviews:   
 * 30-60-90 plans: [30-60-90 day plans](https://www.notion.so/8e5d61270f40493bb42979937f7ecbf8?pvs=21)  
 * Eng Leveling examples  
@@ -27,7 +29,10 @@ nav_order: 10
 * Technical debt assessment matrix
 * Remote work policy template
 * Diversity and inclusion best practices guide
-
+* Devops metrics [DORA](https://www.atlassian.com/devops/frameworks/dora-metrics)
+* Interview:
+    * Behavioral [STAR Method](https://www.coursera.org/ca/articles/star-interview-questions?utm_medium=sem&utm_source=gg&utm_campaign=B2C_NAMER__coursera_FTCOF_career-academy_pmax-enhanced-NRL-w/in-14d-new-cust-country-US-country-CA&campaignid=20397118025&adgroupid=6472952357&device=c&keyword=&matchtype=&network=x&devicemodel=&adposition=&creativeid=6472952357&hide_mobile_promo&gad_source=1&gclid=CjwKCAjwl6-3BhBWEiwApN6_kq-NduO_Zg9ITAdP5eu_ucT52K4YRki40paKYWSmHPRQEyuwq_eSsBoCx4YQAvD_BwE)
+    
 ## Recommended Books
 - "The Manager's Path" by Camille Fournier
 - "Radical Candor" by Kim Scott
