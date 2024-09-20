@@ -27,9 +27,10 @@ nav_order: 4
 
 ## Goals
 
-Your most important goal is to set up each engineer for success and have maximal impact to the team and company. So it is very important you clearly align with the team and engineer on what the goals are.
+Your most important goal is to set up each engineer for success and have maximal impact to the team and company.
+So it is very important you clearly align with the team and engineer on what the goals are.
 
-Now let the magic happen, you hired smart people and let them do what they are best at\! Now is the time to monitor and be proactive. 
+Now let the magic happen, you hired smart people and let them do what they are best at! Now is the time to monitor and be proactive. 
 
 Like you monitor software systems you need to keep an eye on how things are progressing, and scale things up and down based as needed, etc.
 
@@ -44,13 +45,47 @@ Here a short list of things you could do:
   * In case of urgent requests (customer requests)  
 * Support the need of each engineer: Different types of engineers need different support (4 types: insecure, knowledgeable, bored, disengaged)
 
+## Building a Strength Map
+Like you do when driving somewhere you need a map and a directions how to get there.
+Similarly when you are responsible for a team and product you need to know where you are going and how to get there.
+This should be your starting point, and likely the first thing you do when you join a team. Understand you team capabilities: who would be very hard to do any planning (both projects, and people)
+
+What is a strength and weaknesses map for each individual engineer and collaborator:
+- What is this engineers strength
+- What is the know-how and level of expertise 
+- What are the weaknesses and areas of improvement
+- And ultimately how much you can lean on them
+
+This strength map is going to help you both in assign projects, teams as well as a starting point for performance reviews.
+Note that this is you opinion and you should continuously validate and confirm the strength map with your with external sources (either on 1:1, or skip-levels or even with people outside of the company)
+
+## Building Relationships and Team Dynamics
+
+People are not Machines hence building a personal relationships is vital to create a high performing environment.
+Is important to know what’s going on in their personal lives as well: In my experience this can only be learned by building a good personal relationship with each employee.
+
+Interpersonal dynamics with other teammates or customers: listen/watch carefully to how people interact. This is very difficult to do in a remote setting.  
+
+
+
+## Balancing Workload
+
+- Assign tasks based on team member's strengths and interests.
+- Monitor and adjust workload based on team member's performance.
+- Encourage team members to take on additional responsibilities.
+- Try to create team continuity in projects, there is a non-trivial cost in context-switching.
+
+Energizing and de-energizing work: unfortunately there is some work that needs to be done that might be found de-energizing to some. Important is to balance is and distribute the de-energizing work across the team in a fair way. Some people might not be vocal about it, hence is important to monitor the individual energy and productivity. Sadly the squeaky wheel is usually getting the grease, and is your role to make sure that all the deserving wheels get the grease.
+
 ## Fostering a Growth Mindset
 
 Encourage continuous learning and development within your team:
 
 - Set up mentorship programs pairing junior and senior engineers.
 - Allocate time and budget for learning and development activities.
-- Celebrate learning achievements and knowledge sharing.
+- Celebrate learning achievements and knowledge sharing (Lunch and Learns, or external speakers series, etc)
+- Setup a learning budget for your team.
+- Conference attendance: this is usually seen as a reward so be sure to reward the right people.
 
 ## Managing Remote and Distributed Teams
 
@@ -61,14 +96,7 @@ As remote work becomes more common, consider these additional points:
 - Schedule regular virtual team-building activities to maintain team cohesion.
 - Be mindful of time zones when scheduling meetings and setting deadlines.
 
-## Managing/leading people
-**People are not Machines i.e.**: 
-* There is a human cost of context-switching  
-* Different levels of motivation for different types of work, some work is energizing to some, some is draining to some: this is very personal  
-* Interpersonal dynamics with other teammates or customers: listen/watch carefully to how people interact. This is very difficult to do in a remote setting.  
-* Is important to know what’s going on in their personal lives as well: In my experience this can only be learned by building a good personal relationship with each employee.
-
-## Team dynamics,  cohesion, and inclusion:
+## Team dynamics, cohesion, and inclusion:
 
 * Create an environment where everybody feels part of the team and shares wins and losses (think sport’s team spirit). Foster collaboration: Competition across teams and team members might be fun but not healthy in the long run; **PLEASE foster collaboration instead**.  
 * Monitor for “alpha” and “silent” engineers. Make sure everybody can share views, and nobody abuses them. Let the senior engineers speak last, always ask for input both in public and in private.  
@@ -123,6 +151,21 @@ As remote work becomes more common, consider these additional points:
     * When introducing levels? Honestly the later the better BUT it will come up: especially junior engineers will want a level to measure themselves against the senior engineers. Also if you have none and introduce one… be prepared for some unhappiness in the org.  
     * Make sure you have a fixed cadence for re-evaluate people's performances, comp and their contribution (See template on how to run a performance review)  
       
+
+## Hiring
+
+* Hiring plan by quarter
+* Job descriptions and interview plans
+* Hiring manger role and interviewers panel
+  * References
+
+### Giving Offers
+
+Total comp discussion, vesting
+Job description and responsibilities
+
+### Understanding options and rsu
+
 
 ## Attrition
 

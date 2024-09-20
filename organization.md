@@ -7,6 +7,10 @@ nav_order: 7
 {: .no_toc }
 # Organization
 
+How you structure your team has a big inpact on the product bith in term of architecture as well as product development velocity.
+The Conway's Law , which states that "organizations design systems that mirror their own communication structure" [^1], sadly has been proven to be true in my experience. 
+
+
 {: .no_toc }
 ## Table of Contents
 
