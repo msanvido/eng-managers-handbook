@@ -66,8 +66,6 @@ Is important to know what’s going on in their personal lives as well: In my ex
 
 Interpersonal dynamics with other teammates or customers: listen/watch carefully to how people interact. This is very difficult to do in a remote setting.  
 
-
-
 ## Balancing Workload
 
 - Assign tasks based on team member's strengths and interests.
@@ -164,7 +162,7 @@ As remote work becomes more common, consider these additional points:
 Total comp discussion, vesting
 Job description and responsibilities
 
-### Understanding options and rsu
+### Understanding options and RSUs
 
 
 ## Attrition
@@ -178,13 +176,3 @@ Job description and responsibilities
 Startup attrition and tenure at startups is likely in the 2-3 years range (need some more data), but startups that are doing well and growing are more in the 5-7 years. 
 
 Note: Startup years are a bit like dog-years in corporate life: 1 year at a startup can feel like 7 years at a larger company since things move way faster and at an accelerated pace.
-
-## Agile Methodologies
-
-Consider implementing or refining Agile practices:
-
-- Scrum: Sprint planning, daily stand-ups, sprint reviews, and retrospectives.
-- Kanban: Visualizing workflow, limiting work in progress, and continuous delivery.
-- Choose the methodology that best fits your team's needs and company culture.
-
-

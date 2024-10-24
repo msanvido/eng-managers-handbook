@@ -7,8 +7,8 @@ nav_order: 7
 {: .no_toc }
 # Organization
 
-How you structure your team has a big inpact on the product bith in term of architecture as well as product development velocity.
-The Conway's Law , which states that "organizations design systems that mirror their own communication structure" [^1], sadly has been proven to be true in my experience. 
+How you structure your teams has a big impact on the product both in term of architecture as well as product development velocity.
+The Conway's Law , which states that "organizations design systems that mirror their own communication structure" [^1], sadly has been proven to be true in my experience. Hence deliberately creating team to better support the product and development is key to the team successes, and indirectly as a team is more successful it will also make the team more happy and productive.
 
 
 {: .no_toc }
@@ -16,6 +16,20 @@ The Conway's Law , which states that "organizations design systems that mirror t
 
 1. TOC
 {:toc}
+
+## Eng Team Structure
+
+- Product vs Platform vs Support team
+
+{% mermaid %}
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+{% endmermaid %}
+
+
 ## PM and Sales Releationship
 
 The engineering org is ultimately delivering to the PM org, that is the PM is technically your customer. A good way to think about the relationships is:

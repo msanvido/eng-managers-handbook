@@ -1,12 +1,46 @@
 ---
-title: Project Management
+title: Product
 layout: home
 nav_order: 5
 ---
 
 {: .no_toc }
+
+# What Make a Great Product: The Onion
+
+The product, i.e. what gets in the hands of the customer, is the combination of multiple components, each of them playing an important part to the end product.
+I like to think of the product as an onion, with the core being the core tech, obviously the most important piece of the product. The core is often what the team is mostly focused on since is the "piece of the resistance" and likely the competitive edge. A solid core is the necessary but not sufficient ingredient for a great product. 
+
+While the core technology is  undeniably crucial, the other "layers of the onion" become increasingly important as your company grows. You might get away with neglecting them initially, especially if your tech is groundbreaking or the market demand is high. But as competitors emerge, those overlooked layers can become a significant liability.
+
+## The Other Layers of the Onion
+
+The specific "layers" will vary depending on your market, but for SaaS solutions, they often include:
+
+Layers Supporting the product sales motion:
+- Compliance and Security: SOC2, HIPAA, GDPR, and other regulations are table stakes and hard requirements for many businesses. 
+- User Management: Authorization, authentication, RBAC, and multi-tenancy need to be built in from the start to avoid future headaches.
+- Scalability and Flexibility: Backward compatibility and feature flags enable you to iterate on your product without disrupting existing users.
+- Licensing: Understanding and managing your software licenses is essential for compliance and cost control.
+- Documentation/How-to's/Guides: To help the user get the most out of the product
+- Legal aspects: IP protections and any customer contracts limitations.
+- Support and SLAs: How to support customers and maintain service level agreements.
+
+Layers Supporting the product development velocity:
+- Monitoring and Observability: Having a system to monitor your product's performance and diagnose issues is crucial for maintaining uptime and user satisfaction.
+- Release/Patching: How you plan to release new versions and patch issues, how you test them and deliver them.
+- Deployment types: On-prem, which hyperscalers to support, k8s support, containerization, etc.
+- Maintainability (specially for hardware products and systems) - build maintainability into the design.
+
+Many companies offer services that can assist with these aspects, and leveraging them can be advantageous. However, keep in mind that relying on external services for core components of your product may create dependencies and risks, which could significantly impact your bottom line in the future.
+
+
+
+
+
 # Project Management
 
+In order to deliver a product there are a lot of moving pieces that needs to be coordinated.
 This section is about managing projects and teams deliverables.
 
 {: .no_toc }
@@ -116,6 +150,20 @@ Develop a strategy for managing technical debt:
   * Do not delegate everything…. that’s not leadership that authoritarian! Be in the trances!  
   * Companies are benevolent dictatorships: Ask for opinions, but ultimately, the decision is yours and the tech lead. You are responsible for the team… not the ICs\!
 
+Most important management skill to master: Delegation done right!
+- Done Right: is motivational, simplifies scalability and overall execution.
+- Done Wrong: Like putting sand in the gears of a motor.
+
+Wrong:
+- Delegate and don't care about the outcome = Abdicate. It's like a motivation killer: Why bother if management doesn't care?
+- Delegate but then undo all or some of the outcomes (I refer this as pigeon management - imagine you are in a room working hard a pigeon comes in and poops all over the place and then just leaves a mess. [^]I have seen this called seagull management, I prefer pigeon since they are everywhere ). Why delegate in the first place if you do not trust the outcome?
+
+Correct:
+Delegate and coach. Outcome is a shared success (spotlight on delegate, failure is on the coach). Setup the delegation for success, give space, resources, and trust to deliver the outcome. This is your opportunity to grow somebody and for you later on to focus in bigger higher problems.
+
+Remember thought that you cannot delegate everything, some projects and responsibilities will be yours and yours only: seek suggestions and assistance but ultimately you are the one in charge of it. Things you should _never_ delegate: **Non revokable decisions** but most important letting people go (especially if you hired that individual)
+
+
 ## Quality
 
   * **Testing Testing**: **NOBODY WILL EVER TELL YOU YOU TESTING TO MUCH\!**  
@@ -134,3 +182,13 @@ Develop a strategy for managing technical debt:
     * distribute interrupt load and know-how across the team (for continuity, and less team pressure).  
     * The temptation is always (need to be done fast, only X can do it fast… and X ends up always being the guy fixing things)  
     * Tech lead and you should make sure there is enough doc/tutorial/how-tos
+
+
+## Agile Methodologies
+
+Consider implementing or refining Agile practices:
+
+- Scrum: Sprint planning, daily stand-ups, sprint reviews, and retrospectives.
+- Kanban: Visualizing workflow, limiting work in progress, and continuous delivery.
+- Choose the methodology that best fits your team's needs and company culture.
+

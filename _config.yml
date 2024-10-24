@@ -1,5 +1,5 @@
-title: Little Engineering Management Handbook
-description: A checklist and set of resources for engineering managers
+title: The First Dirty Dozen
+description: An handbook on how to scale an engineering org from 0 to N
 theme: just-the-docs
 
 url: https://msanvido.github.io/eng-managers-handbook
@@ -130,6 +130,7 @@ plugins:
   - jekyll-github-metadata
   - jekyll-include-cache
   - jekyll-sitemap
+  - jekyll-mermaid
 
 kramdown:
   syntax_highlighter_opts:
