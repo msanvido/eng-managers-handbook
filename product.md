@@ -5,15 +5,21 @@ nav_order: 5
 ---
 
 {: .no_toc }
+# The Product
 
-# What Make a Great Product: The Onion
+{: .no_toc }
+## Table of Contents
+1. TOC
+{:toc}
+
+## What Make a Great Product: The Onion
 
 The product, i.e. what gets in the hands of the customer, is the combination of multiple components, each of them playing an important part to the end product.
 I like to think of the product as an onion, with the core being the core tech, obviously the most important piece of the product. The core is often what the team is mostly focused on since is the "piece of the resistance" and likely the competitive edge. A solid core is the necessary but not sufficient ingredient for a great product. 
 
 While the core technology is  undeniably crucial, the other "layers of the onion" become increasingly important as your company grows. You might get away with neglecting them initially, especially if your tech is groundbreaking or the market demand is high. But as competitors emerge, those overlooked layers can become a significant liability.
 
-## The Other Layers of the Onion
+### The Other Layers of the Onion
 
 The specific "layers" will vary depending on your market, but for SaaS solutions, they often include:
 
@@ -34,20 +40,10 @@ Layers Supporting the product development velocity:
 
 Many companies offer services that can assist with these aspects, and leveraging them can be advantageous. However, keep in mind that relying on external services for core components of your product may create dependencies and risks, which could significantly impact your bottom line in the future.
 
-
-
-
-
 # Project Management
 
 In order to deliver a product there are a lot of moving pieces that needs to be coordinated.
 This section is about managing projects and teams deliverables.
-
-{: .no_toc }
-## Table of Contents
-
-1. TOC
-{:toc}
 
 ## Goals
 

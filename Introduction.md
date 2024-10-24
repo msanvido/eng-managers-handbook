@@ -31,3 +31,12 @@ I personally always found it healthy feeling a bit like an imposter, since help 
 And it seems now there is even some research showing that some imposter syndrome might be helpful (see https://www.researchgate.net/publication/355362556_The_Impostor_Phenomenon_Revisited_Examining_the_Relationship_between_Workplace_Impostor_Thoughts_and_Interpersonal_Effectiveness_at_Work)
 
 
+# The People, The Product, The Resources
+
+The books mostly focuses on what I believe are the core competences of the manager in priority order:
+
+* People: Without people nothing will get done, focusing on having a productive team, that jells and focuses on getting the right things done is not only a good thing, but is extremely rewarding to be part of such a team since magic will happen. A great team makes a great product.
+* Product: Second without a product there is not company. Building a great product hence is vital, so focusing on shipping a great product in time is quite obviously a vital task.
+* Resources: Lastly managing the resources needed by your team to develop and ship the product is a crucial task.
+
+The book is organized around these three themes, and will add some additional color to other secondary topics.
