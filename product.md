@@ -1,16 +1,18 @@
 ---
-title: Product
+title: Product Management
 layout: home
 nav_order: 5
 ---
 
 {: .no_toc }
-# The Product
+# The Product Management
 
 {: .no_toc }
 ## Table of Contents
 1. TOC
 {:toc}
+
+# The Product
 
 ## What Make a Great Product: The Onion
 
@@ -159,6 +161,21 @@ Delegate and coach. Outcome is a shared success (spotlight on delegate, failure 
 
 Remember thought that you cannot delegate everything, some projects and responsibilities will be yours and yours only: seek suggestions and assistance but ultimately you are the one in charge of it. Things you should _never_ delegate: **Non revokable decisions** but most important letting people go (especially if you hired that individual)
 
+### Improving your Team Decision Making Process
+Improving your decision-making process requires recording both the decision process and all relevant information available (or unavailable) at the time.
+
+This goes against the "coaching from the sidelines" instinct, where we judge past decisions based on currently available information. For instance, looking back, most people would say they should have invested in Google or Facebook 10 years ago. However, considering only the information available back then, would they have made the same decision?
+
+Why mention this? Because it applies to all engineering decisions as well: e.g. product strategy, technical debt, hiring, etc. To improve future decisions, you should review how you made the decision with the information you had at that time, as future decisions will be based solely on present information. 
+
+A sound decision-making process, a good record keeping of past decisions, and a periodic review of past decisions will help refine your engineering organization's decision-making skills, help align the team on critical decisions, and build trust in your team's decision-making process.
+
+Note that this differs from traditional postmortems, which analyze past outcomes backward to prevent or replicate similar outcomes. While postmortems increase the likelihood of success for past decisions, they do not directly contribute to making better future decisions.
+
+In summary:
+ - REcord all the improtant decision in a system of record
+ - Record all the informations that were available at that time
+ - Periodically review all the decisions to improve you decision making processes
 
 ## Quality
 
