@@ -19,7 +19,8 @@ nav_order: 10
 * Managements:
     * OKRs: WIP  
     * DARE and RACI: [RACI vs DARE](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/the-limits-of-raci-and-a-better-way-to-make-decisions)
-* Performance reviews:   
+* Performance reviews templates
+* Leveling templates
 * 30-60-90 plans: [30-60-90 day plans](https://www.notion.so/8e5d61270f40493bb42979937f7ecbf8?pvs=21)  
 * Eng Leveling examples  
 * Team workflow examples
@@ -42,6 +43,8 @@ nav_order: 10
 - "Team Topologies: Organizing Business and Technology Teams for Fast Flow (Illustrated ed.)." by Skelton, M., Farley, D., & Pais, M. (2019).IT Revolution Press.
 - "Servant leadership" (https://en.wikipedia.org/wiki/Servant\_leadership)
 - Conway, M. E. (1968). How do Committees Invent? Datamation, 14(4), 28-31.
+- [Imposter Syndrome][imposter-syndrome]
 
+[imposter-syndrome]: https://www.researchgate.net/publication/355362556_The_Impostor_Phenomenon_Revisited_Examining_the_Relationship_between_Workplace_Impostor_Thoughts_and_Interpersonal_Effectiveness_at_Work
 Remember, the most effective managers continually refine their skills and adapt their approach based on their team's needs and the evolving landscape of technology and business.
 

@@ -57,6 +57,22 @@ Expand on the Team Topologies concept:
 
 Consider how these team structures can be applied to your organization as it grows.
 
+## Leveling and Promotions
+
+Ok, this is a can of worms, and a very hot topics. Here is my personal view and experience.
+First this is a related to performance review but is putting visible (internal or external) structures around it.
+
+I firmly believe that until the company passes the existential threats (i.e. a runway that is not measured in months) leveling will be just a distraction and a cause of unhappiness among the team. So wait until the pressure to have a leveling system in place as much as you can and focus the team on delivering the product/milestones.
+
+So when you should introduce leveling? Here my personal view:
+You introduce leveling for the following reasons:
+- You need a formal way for junior engineer to grow inside the company,
+- You need a way to unify the performance expectations across the org, and ultimately
+- You have a benchmark for external hiring people - so they
+What its is not:
+- A way to compensate people! yes levels are a floor to the comp but they should be losely coupled.
+
+
 ## Communication and Transparency
 
 - Implement a regular cadence of team-wide and company-wide communications.

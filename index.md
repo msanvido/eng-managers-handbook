@@ -29,13 +29,13 @@ If you are an experience manager, hope you still will find some valid ideas in t
 If you are a new manager and trying to learn how to effectively lead a team, welcome to this journey. I hope this handbook will help you in your new adventure.
 
 Not to scare you the reader, but managing people is not as easy as it sounds. If you make a mistake you impact people and usually not alwasy easy to fix.
-A/B testing and idea is often impossible, hence learning from past mistakes is key to yours and your teams success.
+A/B testing an idea is often impossible, hence learning from past mistakes is key to yours and your teams success.
 
 ## Imposter Syndrome
 
-As new manager joining a team, or being promoted into this role you might feel like an imposter. Don't worry you are not alone.
+As a new manager joining a team, or being promoted into this role you might feel like an imposter. Don't worry you are not alone.
 I personally always found it healthy feeling a bit like an imposter, since help you to listen to feedback and constantly trying to improve yourself.
-And it seems now there is even some research showing that some imposter syndrome might be helpful (see https://www.researchgate.net/publication/355362556_The_Impostor_Phenomenon_Revisited_Examining_the_Relationship_between_Workplace_Impostor_Thoughts_and_Interpersonal_Effectiveness_at_Work)
+And it seems now there is even some research showing that some imposter syndrome might be helpful ([Imposter Syndrome](references.html#imposter-syndrome))
 
 
 # The People, The Product, The Resources
