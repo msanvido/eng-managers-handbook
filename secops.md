@@ -7,7 +7,7 @@ nav_order: 6
 {: .no_toc }
 # Security Compliance and Regulations
 
-This section how to manage compliance and regulations. This is by far not a complete and exastive section but give you a pointer on the important issues you need to know.
+This section how to manage compliance and regulations. This is by far not a complete and exhaustive section but give you a pointer on the important issues you need to know.
 
 {: .no_toc }
 ## Table of Contents
