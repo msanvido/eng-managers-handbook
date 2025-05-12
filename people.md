@@ -102,9 +102,6 @@ As remote work becomes more common, consider these additional points:
 * **ZERO-TOLERANCE for any unacceptable behaviors (see** [company code of conduct](https://app.vanta.com/policies/code-of-conduct-bsi))\!: If we let any unacceptable behavior slide, it will set the bar for the whole company. Quickly react, stop it, and make sure people know you intervened and make sure you chain of management and HR are aware of it and decide any next steps (warnings, suspension, termination)  
 * praise/highlight good behavior and lead by example
 
-
-> Note that one trap of the servant leadership style is that there is a tendency to step in to help when needed. You should not take over and fix the issue but rather help fix the issue: i.e. avoid the “don’t worry I’ll take care of it”
-
 ## Tools at your disposition
 
 * Monitor (how you know how people are doing)  
