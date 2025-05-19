@@ -1,7 +1,7 @@
 ---
-title: Resources and Budgets
+title: Resource Management
 layout: home
-nav_order: 6
+nav_order: 4
 ---
 {: .no_toc }
 # Resources and Budgets
@@ -30,4 +30,3 @@ nav_order: 6
   * Stack ranking, key players, and cost of replacement  
     * Every 6 months, Sept/Feb, at the same time as the leveling. Team mgmt will stack rank all the engineers. Yaron/Riffat/Marco will make the comp adjustments, and Marco will communicate with the engineers.  
     * We will transition the communication to the eng mgmt over time.
-

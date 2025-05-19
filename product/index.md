@@ -1,7 +1,7 @@
 ---
 title: Product Management
 layout: home
-nav_order: 5
+nav_order: 3
 ---
 
 {: .no_toc }
@@ -205,3 +205,23 @@ Consider implementing or refining Agile practices:
 - Kanban: Visualizing workflow, limiting work in progress, and continuous delivery.
 - Choose the methodology that best fits your team's needs and company culture.
 
+## PM and Sales Relationship
+
+The engineering org is ultimately delivering to the PM org, that is the PM is technically your customer. A good way to think about the relationships is:
+
+- PM decides what needs to be build (gathering inputs from sales and engineering): i.e. the roadmap  
+- Eng decide who and when: i.e. when the roadmap is delivered based on complexity and resources available  
+- Sales is the PM’s customer: Ultimately if the roadmap must cater to the sales team needs.
+
+Ultimately **if it is not on the roadmap it is not going to be built.** So have a good centralized way to view and track the roadmap is vital.
+
+## Building Strong Relationships
+
+- Schedule regular sync-ups between engineering, product management, and sales teams.
+- Encourage engineers to join sales calls occasionally to better understand customer needs.
+- Implement a system for engineering to provide time estimates and feasibility assessments for feature requests.
+
+## Organization and Product Strategy
+
+How you structure your teams has a big impact on the product both in term of architecture as well as product development velocity.
+The Conway's Law , which states that "organizations design systems that mirror their own communication structure" [^1], sadly has been proven to be true in my experience. Hence deliberately creating team to better support the product and development is key to the team successes, and indirectly as a team is more successful it will also make the team more happy and productive.
