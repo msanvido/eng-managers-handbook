@@ -7,13 +7,13 @@ nav_order: 4.1
 {: .no_toc }
 # Security Compliance and Regulations
 
-This section how to manage compliance and regulations. This is by far not a complete and exhaustive section but give you a pointer on the important issues you need to know.
-
 {: .no_toc }
 ## Table of Contents
 
 1. TOC
 {:toc}
+
+This section how to manage compliance and regulations. This is by far not a complete and exhaustive section but give you a pointer on the important issues you need to know.
 
 ## Goals
 

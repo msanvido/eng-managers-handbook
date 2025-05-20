@@ -7,13 +7,13 @@ nav_order: 4.3
 {: .no_toc }
 # CI/CD and DevOps Practices
 
-This section covers continuous integration, continuous delivery, and DevOps practices for scaling engineering organizations.
-
 {: .no_toc }
 ## Table of Contents
 
 1. TOC
 {:toc}
+
+This section covers continuous integration, continuous delivery, and DevOps practices for scaling engineering organizations.
 
 ## DevOps Philosophy
 
