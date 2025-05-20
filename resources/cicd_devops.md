@@ -1,7 +1,7 @@
 ---
-title: CI/CD and DevOps Practices
+title: CI/CD and DevOps
 layout: home
-nav_order: 7
+nav_order: 4.3
 ---
 
 {: .no_toc }

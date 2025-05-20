@@ -1,7 +1,7 @@
 ---
-title: Security, Compliance and Regulations
+title: Security and Compliance
 layout: home
-nav_order: 6
+nav_order: 4.1
 ---
 
 {: .no_toc }
