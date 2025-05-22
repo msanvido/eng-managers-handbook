@@ -1,9 +1,9 @@
 ---
 title: CI/CD and DevOps
-layout: home
-nav_order: 4.3
+layout: default
+nav_order: 2
+parent: Operational
 ---
-
 {: .no_toc }
 # CI/CD and DevOps Practices
 

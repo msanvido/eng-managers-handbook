@@ -1,7 +1,8 @@
 ---
-title: Resource Management
-layout: home
-nav_order: 4
+title: Resources
+layout: default
+nav_order: 3
+parent: Management
 ---
 {: .no_toc }
 # Resources and Budgets
