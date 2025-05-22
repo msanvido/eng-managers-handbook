@@ -1,9 +1,9 @@
 ---
 title: Security and Compliance
-layout: home
-nav_order: 4.1
+layout: default
+nav_order: 1
+parent: Operational
 ---
-
 {: .no_toc }
 # Security Compliance and Regulations
 
@@ -124,4 +124,4 @@ Monitor continuously and implement intelligent alerting.
 * **Compliance Automation**: Secureframe, Tugboat Logic, Ostendio
 * **Security Monitoring**: Datadog, Splunk, Elastic Security
 * **Vendor Management**: OneTrust VRM, Whistic, SecurityScorecard
-* **Training and Awareness**: KnowBe4, Proofpoint Security Awareness, SANS 
+* **Training and Awareness**: KnowBe4, Proofpoint Security Awareness, SANS

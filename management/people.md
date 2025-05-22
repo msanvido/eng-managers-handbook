@@ -1,7 +1,8 @@
 ---
-title: People Management
-layout: home
-nav_order: 2
+title: People
+layout: default
+nav_order: 1
+parent: Management
 ---
 
 {: .no_toc }

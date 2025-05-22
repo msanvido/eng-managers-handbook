@@ -1,5 +1,5 @@
 ---
-title: The First Dirty Dozen
+title: Introduction
 layout: home
 nav_order: 1
 ---
@@ -101,6 +101,6 @@ The book is organized around these three themes, and will add some additional co
 Management can be divided into three equally important responsibilities: People, Projects, and Resources (money, tools, and time). We will go over each of these in the following sections.
 
 ## Sections
-*   [People Management](./people/) (Content to be added)
-*   [Product Management](./product/) (Content to be added)
-*   [Resource Management](./resources/) (Content to be added)
+*   [People Management](./management/people.html) (Content to be added)
+*   [Product Management](./management/product.html) (Content to be added)
+*   [Resource Management](./management/resources.html) (Content to be added)

@@ -1,7 +1,8 @@
 ---
-title: Product Management
-layout: home
-nav_order: 3
+title: Product
+layout: default
+nav_order: 2
+parent: Management
 ---
 
 {: .no_toc }
