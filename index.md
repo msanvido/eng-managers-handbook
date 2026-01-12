@@ -6,11 +6,11 @@ nav_order: 1
 
 # Introduction
 
-I wrote this guide over the years as a collection of experiences and lessons learned while working at early-stage startups (0-50 engineers). The guide was originally tailored to new first-line managers - people who had never managed a team or newly hired managers joining the team. My primary goal was to create a consistent management style across teams, crucial for reducing chaos in a startup’s early stages and enhancing team mobility.
+I wrote this guide over the years as a collection of experiences and lessons learned while working at early-stage startups (0-50 engineers). Originally tailored for new first-line managers, my primary goal was to create a consistent management style across teams—crucial for reducing chaos in a startup's early stages and enhancing team mobility.
 
-This guide can be thought of as a checklist of things a manager will be responsible for, and a reference for the tools available to the new manager. Also the guide is not meant to be a set of rules to blindly follow; true leadership must be natural and heartfelt, meaning adapt this handbook to your style and what works best for the team and the company at that particular time and moment.
+This guide serves as both a checklist of management responsibilities and a reference for available tools. However, it is not a set of rules to blindly follow. True leadership must be natural and heartfelt—adapt this handbook to your style and what works best for your team and company at any given moment.
 
-Remember that this handbook is a living document. As your organization grows and evolves, you should adapt these principles and practices accordingly. Embrace change and continuously strive for improvement. For example feel free to fork this handbook and adapt it to your own org specific needs.
+This handbook is a living document. As your organization grows and evolves, adapt these principles and practices accordingly. Embrace change, continuously strive for improvement, and feel free to fork this handbook to meet your organization's specific needs.
 
 {: .note } 
 > "Managing and leading is not about giving tasks to people, it is achieving a goal with the **HELP** of people.
@@ -18,39 +18,37 @@ Remember that this handbook is a living document. As your organization grows and
 
 # To The Reader
 
-If you are an experience manager, hope you still will find some valid ideas in the next chapters of the book. Again I am not trying to say this is the only way to manage and lead teams from the ground up, but this is the approach I used and seemed to work.
-If you are a new manager and trying to learn how to effectively lead a team, welcome to this journey. I hope this handbook will help you in your new adventure.
+**For experienced managers:** I hope you'll find valuable ideas in the following chapters. This is not the only way to manage and lead teams, but it's an approach that has worked well in practice.
 
-Not to scare you, but managing people is not as easy as it sounds. Mistakes can have a lasting impact on people and are not always easy to fix.
-A/B testing an idea is often impossible, hence learning from past mistakes is key to yours and your teams success.
+**For new managers:** Welcome to this journey. Managing people is challenging—mistakes can have lasting impacts and are not always easy to fix. Unlike product development, you cannot A/B test management decisions, making learning from experience essential to your and your team's success.
+
+This handbook aims to help you navigate these challenges with thoughtful guidance and practical tools.
 
 ## Imposter Syndrome
 
-As a new manager joining a team, or being promoted into this role you might feel like an imposter. Don't worry you are not alone.
-I have personally always found it healthy to feel like an imposter, as it helps you listen to feedback and continuously improve yourself.
-And it seems now there is even some research showing that some imposter syndrome might be helpful ([Imposter Syndrome](./references.md#imposter-syndrome))
+As a new manager, whether joining a team or being promoted internally, you might feel like an imposter. Don't worry—you are not alone. I've personally found that some imposter syndrome can be healthy, as it encourages active listening and continuous self-improvement. Research even suggests that moderate imposter syndrome can be beneficial ([Imposter Syndrome](./references.md#imposter-syndrome)).
 
 # What is Management
 
-What all managers have in common is our commitment to helping their direct reports to:
+What all managers have in common is a commitment to helping their direct reports:
 
-* Have great impact and deliver great results  
-* learn and grow  
-* feel engaged, safe and happy in their work
+* Have great impact and deliver great results
+* Learn and grow
+* Feel engaged, safe, and happy in their work
 
-Managers are leaders (Remember the phrase: **YOU LEAD PEOPLE but MANAGE THINGS**) that:
+Managers are leaders (remember: **YOU LEAD PEOPLE but MANAGE THINGS**) who:
 
 * **Coaches:** We ask questions that help our direct reports think more strategically. We empower them to find solutions to their own problems.  
 * **Role Models:** We set the climate for our team. Direct reports will model a manager’s habits, moods, and values. Great managers use this power for good.  
 * **Multipliers First, Doers Second:** While individual contributors are successful when *they* get results, managers are successful when *each of their reports* (and the entire team) gets results.  
 * **Cheerleaders:** for the team and the team accomplishments.
 
-Sometime people assume that to achieve the above they need to be liked, but this is not true. Sometimes the right decision are not the most popular and often a decision will make somebody in your team unhappy. In addition to authenticity, successful leadership requires three critical elements:
+Some people assume that effective management requires being liked, but this is not true. The right decisions are not always popular, and you will sometimes make someone unhappy. Beyond authenticity, successful leadership requires four critical elements:
 
-1. **Consistency**: Your actions and decisions should align with your stated values and principles. Inconsistencies can erode trust and create confusion within the team.
-2. **Fairness**: Treat everyone equitably, ensuring that decisions are impartial and based on merit. Fairness fosters respect and loyalty among team members.
-3. **Emphaty, and Openness to Feedback**: Encourage and actively listen to feedback from your team. Being receptive to input not only improves your leadership but also demonstrates humility and a willingness to grow.
-4. **Integrity**: Maintaining high ethical standards and building trust within the team.
+1. **Consistency**: Your actions and decisions should align with your stated values and principles. Inconsistencies erode trust and create confusion.
+2. **Fairness**: Treat everyone equitably, ensuring decisions are impartial and based on merit. Fairness fosters respect and loyalty.
+3. **Empathy and Openness to Feedback**: Encourage and actively listen to feedback from your team. Being receptive to input improves your leadership and demonstrates humility and willingness to grow.
+4. **Integrity**: Maintain high ethical standards and build trust within the team.
 
 Without these foundational qualities, even the most well-defined leadership style may fail to inspire and motivate others. Leadership is not just about directing; it is about earning the trust and commitment of those you lead.
 
@@ -58,7 +56,7 @@ Without these foundational qualities, even the most well-defined leadership styl
 There are numerous leadership styles, each offering a unique approach to guiding and inspiring people. While I have outlined some of the most common styles here, the key to successful leadership lies in authenticity. Adopting a leadership style that does not resonate with your true self is unlikely to yield positive results. Authenticity builds trust and credibility, which are essential for effective leadership.
 
 Most common leadership styles:
-- **Servant Leadership** – The leader prioritizes serving the needs and growth of the team, believing results flow from empowered people. See [**servant leadership**](https://en.wikipedia.org/wiki/Servant\_leadership).
+- **Servant Leadership** – The leader prioritizes serving the needs and growth of the team, believing results flow from empowered people. See [**servant leadership**](https://en.wikipedia.org/wiki/Servant_leadership).
 - **Autocratic (Authoritarian)** – The leader makes decisions unilaterally and expects strict compliance, valuing speed and control over participation.  
 - **Benevolent Dictator** – One person retains full authority but tempers it with genuine concern for followers’ welfare, guiding firmly yet protectively.  
 - **Democratic (Participative)** – Decisions are made with substantial input from the team, fostering engagement and shared ownership of outcomes.  
@@ -67,40 +65,54 @@ Most common leadership styles:
 - **Charismatic and Visionary** – Uses personal magnetism and emotional appeal to rally commitment and drive momentum toward the leader’s goals. Paints a clear, future-oriented picture and aligns people by connecting their work to that larger purpose.  
 
 
-I my personal exprience, startup teams and smaller teams work well with servant leadershipo approach, given you are trying to grow the team and the product at a very fast pace, and this can only be achieved if you serve your team and let them execute in autonomy.
-Note: that one trap of the servant leadership style is that there is a tendency to step in to help when needed. You should not take over and fix the issue but rather help fix the issue: i.e. avoid the “don’t worry I’ll take care of it”
+In my experience, startup teams and smaller teams work well with the servant leadership approach. When growing a team and product at a fast pace, serving your team and enabling autonomous execution is essential.
+
+{: .warning }
+> **Servant Leadership Trap**: Resist the tendency to step in and take over when problems arise. Instead of saying "don't worry, I'll take care of it," guide your team to solve the problem themselves. Your role is to help, not to fix.
 
 
-## The Management trap
-Something I've observed is that as you become more senior, you'll find slowly move further and further away from the real work. This is not necessarily a bad thing, and a necessity but in the long term can be detrimental to your effectiveness since you you will slowly lose the the skills and intuitions needed to effectively manager an engineering organization, manager your skill at doing the work yourself, the opportunity to practice that skill, and the gratification of doing so that drew you to your chosen profession in the first place. And you'll probably also get worse at being a manager as you lose touch with the actual work.
+## The Management Trap
 
-Avoiding *managerdom* is hard, but this are few things that helped me keep the balance to "staying in the trenches":
+As you become more senior, you'll gradually move away from hands-on technical work. While this is inevitable and necessary, it can be detrimental to your effectiveness. You risk losing the skills and intuitions needed to effectively manage an engineering organization, disconnecting from the daily realities your team faces, and ultimately becoming a less effective manager.
 
-- Take small, non-critical projects: Work on unit tests, library upgrades, etc. This keeps skills fresh and provides insight into engineers' daily challenges.
-- Participate in code reviews: Stay updated on architecture and implementation approaches.
-- Be an "Eagle Eye": Observe actively and assist team members when they struggle, maintaining technical skills while building trust.
+### Staying Technical
 
-These strategies have helped me immensely keep my skills current and imposter syndrome in check.
-Obviously there are other ways to stay in the trenches, but these are the ones that worked for me.
+Here are strategies that have helped me "stay in the trenches":
 
-Note: I think this is only tangentially related to Founder Mode vs Manager Mode. It's much more related to another Paul Graham essay, Maker's Schedule vs Manager's Schedule. And Deep Work by Cal Newport is very relevant.
+- **Take small, non-critical projects**: Work on unit tests, library upgrades, or minor features. This keeps skills fresh and provides insight into engineers' daily challenges.
+- **Participate in code reviews**: Stay current on architecture patterns and implementation approaches.
+- **Be an "Eagle Eye"**: Observe actively and assist team members when they struggle, maintaining technical credibility while building trust.
+
+These strategies help keep technical skills current and imposter syndrome in check. Find what works for you—the key is maintaining some connection to the actual work.
+
+{: .note }
+> **Related Reading**: This concept relates to Paul Graham's "Maker's Schedule vs Manager's Schedule" and Cal Newport's "Deep Work" more than "Founder Mode vs Manager Mode."
 {: .note } 
 > 💡 **But everything boils down to**:
 > Happy and engaged engineers will build great products that ultimately create happy and loyal customers.
 
 # The People, The Product, The Resources
 
-This book primarily focuses on what I believe are the core competencies of a manager, listed in order of priority:
+This handbook focuses on three core management competencies, listed in order of priority:
 
-* People: A productive team is the foundation of success. Fostering collaboration and alignment ensures that the right things get done. Being part of a great team is not just beneficial—it’s where the magic happens. Although a great team is not a guaranteer for a great products, a bad team rearly will build a great product.
-* Product: Second without a product there is not company. Building a great product hence is vital, so focusing on shipping a great product in time is quite obviously a vital task.
-* Resources: Lastly managing the resources needed by your team to develop and ship the product is a crucial task.
+1. **People**: A productive team is the foundation of success. Fostering collaboration and alignment ensures the right things get done. While a great team doesn't guarantee a great product, a bad team rarely builds one.
 
-The book is organized around these three themes, and will add some additional color to other secondary topics.
+2. **Product**: Without a product, there is no company. Building and shipping a great product on time is essential to organizational success.
 
-Management can be divided into three equally important responsibilities: People, Projects, and Resources (money, tools, and time). We will go over each of these in the following sections.
+3. **Resources**: Managing the resources your team needs—budget, tools, time—to develop and ship the product effectively.
 
-## Sections
-*   [People Management](./management/people.html) (Content to be added)
-*   [Product Management](./management/product.html) (Content to be added)
-*   [Resource Management](./management/resources.html) (Content to be added)
+The handbook is organized around these three themes, with additional coverage of operational topics like DevOps, security, and tooling.
+
+## Handbook Structure
+
+### [Management](./management/)
+The core management disciplines:
+* **[People Management](./management/people.html)** - Building, growing, and leading your team
+* **[Product Management](./management/product.html)** - Delivering products and managing projects
+* **[Resource Management](./management/resources.html)** - Budgets, compensation, and resource allocation
+
+### [Operational](./operational/)
+Supporting practices for effective engineering organizations:
+* **[Security & Compliance](./operational/security.html)** - Managing security, regulations, and compliance
+* **[CI/CD & DevOps](./operational/devops.html)** - Continuous delivery and operational excellence
+* **[Tools](./operational/tooling.html)** - Selecting and managing engineering tools
