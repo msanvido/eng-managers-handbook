@@ -1,0 +1,15 @@
+{%- comment -%}
+  Renders an estimated reading time for the current page.
+  Assumes ~225 words per minute. Skipped on short landing pages via
+  the `hide_reading_time` front-matter flag.
+{%- endcomment -%}
+{%- unless page.hide_reading_time -%}
+  {%- assign words = content | strip_html | number_of_words -%}
+  {%- if words > 200 -%}
+    {%- assign minutes = words | divided_by: 225 | plus: 1 -%}
+    <p class="reading-time" aria-label="Estimated reading time">
+      <span class="reading-time__icon" aria-hidden="true">●</span>
+      {{ minutes }} min read &middot; {{ words }} words
+    </p>
+  {%- endif -%}
+{%- endunless -%}

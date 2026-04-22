@@ -1,0 +1,175 @@
+// ---------------------------------------------------------------------------
+// Typography & reading experience
+// ---------------------------------------------------------------------------
+
+.main-content {
+  max-width: 48rem;
+  line-height: 1.65;
+
+  p, li {
+    font-size: 1.0rem;
+  }
+
+  h1 {
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    margin-top: 0;
+  }
+
+  h2 {
+    margin-top: 2.5rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(128, 128, 128, 0.15);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  h3 {
+    margin-top: 2rem;
+    font-weight: 600;
+  }
+
+  blockquote {
+    border-left: 4px solid rgba(128, 128, 128, 0.35);
+    padding-left: 1rem;
+    color: rgba(128, 128, 128, 0.95);
+    font-style: italic;
+  }
+}
+
+// Reading-time badge injected by _layouts/chapter.html
+.reading-time {
+  display: inline-block;
+  margin: 0 0 1.5rem 0;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.8rem;
+  color: #6a737d;
+  background: rgba(128, 128, 128, 0.08);
+  border-radius: 999px;
+  letter-spacing: 0.01em;
+
+  &__icon {
+    color: #28a745;
+    margin-right: 0.3rem;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Landing-page hero
+// ---------------------------------------------------------------------------
+
+.book-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-items: flex-start;
+  margin: 0 0 2.5rem 0;
+
+  @media (min-width: 48rem) {
+    flex-direction: row;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  &__image {
+    max-width: 16rem;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  }
+
+  &__copy {
+    flex: 1;
+
+    h1 {
+      margin-top: 0;
+      font-size: 2.1rem;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+    }
+
+    .book-hero__tagline {
+      font-size: 1.1rem;
+      color: #586069;
+      margin-bottom: 1rem;
+    }
+
+    .book-hero__meta {
+      font-size: 0.9rem;
+      color: #6a737d;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Callout polish (just-the-docs callouts)
+// ---------------------------------------------------------------------------
+
+.main-content .note,
+.main-content .warning,
+.main-content .important,
+.main-content .highlight,
+.main-content .new {
+  border-radius: 6px;
+  border-left-width: 4px;
+}
+
+// ---------------------------------------------------------------------------
+// Part/Chapter index pages
+// ---------------------------------------------------------------------------
+
+.part-index {
+  &__eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.8rem;
+    color: #6a737d;
+    margin-bottom: 0.5rem;
+  }
+
+  &__lede {
+    font-size: 1.15rem;
+    color: #444;
+    margin-bottom: 2rem;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Print stylesheet — readable on paper / PDF export
+// ---------------------------------------------------------------------------
+
+@media print {
+  .side-bar,
+  .main-header,
+  .search,
+  .aux-nav,
+  .breadcrumb-nav,
+  .page-header,
+  .nav-category,
+  footer {
+    display: none !important;
+  }
+
+  .main,
+  .main-content-wrap,
+  .main-content {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  body {
+    font-size: 11pt;
+    line-height: 1.5;
+    color: #111;
+  }
+
+  a {
+    color: #111;
+    text-decoration: none;
+  }
+
+  h1 { page-break-before: always; }
+  h1, h2, h3 { page-break-after: avoid; }
+  pre, blockquote { page-break-inside: avoid; }
+}
