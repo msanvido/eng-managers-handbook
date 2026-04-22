@@ -1,7 +1,8 @@
 ---
-title: References
+title: Appendix — References
 layout: home
-nav_order: 10
+nav_order: 99
+hide_reading_time: true
 ---
 {: .no_toc }
 # References
@@ -161,9 +162,15 @@ This section provides links to practical templates, frameworks, and resources fo
 - [No Silver Bullet](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf) by Fred Brooks - Essential difficulties in software
 
 **Modern Engineering Management**
-- [How Big Tech Runs Tech Projects](https://newsletter.pragmaticengineer.com/) - The Pragmatic Engineer newsletter
+- [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/) - Industry newsletter by Gergely Orosz
 - [LeadDev](https://leaddev.com/) - Community and resources for tech leads
 - [Rands in Repose](https://randsinrepose.com/) - Michael Lopp's management blog
+- [Irrational Exuberance](https://lethain.com/) - Will Larson's engineering leadership writing
+
+**Managing in the AI Era**
+- [The Pragmatic Engineer on AI](https://newsletter.pragmaticengineer.com/) - Ongoing coverage of AI's impact on engineering teams
+- [Simon Willison's Weblog](https://simonwillison.net/) - Practical writing on coding with LLMs and agents
+- [AI Engineer](https://www.latent.space/) - Latent Space podcast and community on AI-augmented engineering practice
 
 ## Online Communities and Resources
 
@@ -193,6 +200,3 @@ This section provides links to practical templates, frameworks, and resources fo
 - [Pave Compensation Data](https://www.pave.com/) - Real-time compensation benchmarking
 - [OpenComp](https://www.opencomp.com/) - Compensation management platform
 - [Carta Equity Calculator](https://carta.com/equity/learn/equity-calculator/) - Understanding equity value
-
-{: .note }
-> **Remember**: The most effective managers continually refine their skills and adapt their approach based on their team's needs and the evolving landscape of technology and business. Use these resources as starting points, but always adapt them to your specific context.

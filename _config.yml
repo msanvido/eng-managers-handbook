@@ -1,6 +1,6 @@
 title: "Engineering Management: The First Dirty Dozen"
 author: Marco Sanvido
-description: An handbook on how to scale an engineering org from 0 to N
+description: A practical handbook for first-line engineering managers at early-stage startups — from hiring your first engineer to scaling past 50.
 theme: just-the-docs
 
 url: https://msanvido.github.io/eng-managers-handbook
@@ -68,6 +68,9 @@ nav_enabled: true
 # nav_sort: case_insensitive # default, equivalent to nil
 nav_sort: case_sensitive # Capital letters sorted before lowercase
 
+# Order children by nav_order (not alphabetical), so parts read in narrative order
+child_nav_order: 'asc'
+
 # External navigation links
 #nav_external_links:
 #  - title: Source
@@ -80,6 +83,19 @@ liquid:
   error_mode: strict
   strict_filters: true
 
+# Files that should not be part of the built site
+exclude:
+  - TODO.md
+  - CLAUDE.md
+  - build.sh
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - .claude
+  - .github
+  - .jekyll-cache
+  - README.md
+
 # Footer content
 # appears at the bottom of every page's main content
 
@@ -87,7 +103,7 @@ liquid:
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: 'Copyright &copy; 2024 Marco Sanvido. Distributed by an <a href="https://github.com/msanvido/eng-managers-handbook/tree/main/LICENSE">Creative Commons Legal Code.</a>'
+footer_content: 'Copyright &copy; 2024–2026 Marco Sanvido. Distributed under a <a href="https://github.com/msanvido/eng-managers-handbook/tree/main/LICENSE">Creative Commons License</a>.'
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -101,8 +117,8 @@ gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
-# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: nil
+# Color scheme — light by default; users can toggle to dark via the header control
+color_scheme: light
 
 callouts_level: quiet # or loud
 callouts:

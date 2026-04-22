@@ -1,118 +1,60 @@
 ---
-title: Introduction
+title: Home
 layout: home
 nav_order: 1
+hide_reading_time: true
 ---
 
-# Introduction
+<div class="book-hero">
+  <img class="book-hero__image" src="{{ '/image.webp' | relative_url }}" alt="Engineering Management: The First Dirty Dozen">
+  <div class="book-hero__copy">
+    <h1>Engineering Management: The First Dirty Dozen</h1>
+    <p class="book-hero__tagline">A practical handbook for first-line engineering managers at early-stage startups — from hiring your first engineer to scaling past fifty.</p>
+    <p class="book-hero__meta">By <strong>Marco Sanvido</strong> &middot; Last revised April 2026 &middot; <a href="https://github.com/msanvido/eng-managers-handbook">Source on GitHub</a></p>
+  </div>
+</div>
 
-I wrote this guide over the years as a collection of experiences and lessons learned while working at early-stage startups (0-50 engineers). Originally tailored for new first-line managers, my primary goal was to create a consistent management style across teams—crucial for reducing chaos in a startup's early stages and enhancing team mobility.
+## Why this book exists
 
-This guide serves as both a checklist of management responsibilities and a reference for available tools. However, it is not a set of rules to blindly follow. True leadership must be natural and heartfelt—adapt this handbook to your style and what works best for your team and company at any given moment.
+I wrote this handbook over several years as a collection of lessons learned managing engineering teams at early-stage startups (0–50 engineers). It was originally meant as a consistency document for new first-line managers — a way to align on how we lead people, run projects, and make resourcing decisions — so the org could scale without descending into chaos every time we hired another manager.
 
-This handbook is a living document. As your organization grows and evolves, adapt these principles and practices accordingly. Embrace change, continuously strive for improvement, and feel free to fork this handbook to meet your organization's specific needs.
-
-{: .note } 
-> "Managing and leading is not about giving tasks to people, it is achieving a goal with the **HELP** of people.
-> Remember that ultimately you lead people and manage things."
-
-# To The Reader
-
-**For experienced managers:** I hope you'll find valuable ideas in the following chapters. This is not the only way to manage and lead teams, but it's an approach that has worked well in practice.
-
-**For new managers:** Welcome to this journey. Managing people is challenging—mistakes can have lasting impacts and are not always easy to fix. Unlike product development, you cannot A/B test management decisions, making learning from experience essential to your and your team's success.
-
-This handbook aims to help you navigate these challenges with thoughtful guidance and practical tools.
-
-## Imposter Syndrome
-
-As a new manager, whether joining a team or being promoted internally, you might feel like an imposter. Don't worry—you are not alone. I've personally found that some imposter syndrome can be healthy, as it encourages active listening and continuous self-improvement. Research even suggests that moderate imposter syndrome can be beneficial ([Imposter Syndrome](./references.md#imposter-syndrome)).
-
-# What is Management
-
-What all managers have in common is a commitment to helping their direct reports:
-
-* Have great impact and deliver great results
-* Learn and grow
-* Feel engaged, safe, and happy in their work
-
-Managers are leaders (remember: **YOU LEAD PEOPLE but MANAGE THINGS**) who:
-
-* **Coaches:** We ask questions that help our direct reports think more strategically. We empower them to find solutions to their own problems.  
-* **Role Models:** We set the climate for our team. Direct reports will model a manager’s habits, moods, and values. Great managers use this power for good.  
-* **Multipliers First, Doers Second:** While individual contributors are successful when *they* get results, managers are successful when *each of their reports* (and the entire team) gets results.  
-* **Cheerleaders:** for the team and the team accomplishments.
-
-Some people assume that effective management requires being liked, but this is not true. The right decisions are not always popular, and you will sometimes make someone unhappy. Beyond authenticity, successful leadership requires four critical elements:
-
-1. **Consistency**: Your actions and decisions should align with your stated values and principles. Inconsistencies erode trust and create confusion.
-2. **Fairness**: Treat everyone equitably, ensuring decisions are impartial and based on merit. Fairness fosters respect and loyalty.
-3. **Empathy and Openness to Feedback**: Encourage and actively listen to feedback from your team. Being receptive to input improves your leadership and demonstrates humility and willingness to grow.
-4. **Integrity**: Maintain high ethical standards and build trust within the team.
-
-Without these foundational qualities, even the most well-defined leadership style may fail to inspire and motivate others. Leadership is not just about directing; it is about earning the trust and commitment of those you lead.
-
-## Leadership Styles
-There are numerous leadership styles, each offering a unique approach to guiding and inspiring people. While I have outlined some of the most common styles here, the key to successful leadership lies in authenticity. Adopting a leadership style that does not resonate with your true self is unlikely to yield positive results. Authenticity builds trust and credibility, which are essential for effective leadership.
-
-Most common leadership styles:
-- **Servant Leadership** – The leader prioritizes serving the needs and growth of the team, believing results flow from empowered people. See [**servant leadership**](https://en.wikipedia.org/wiki/Servant_leadership).
-- **Autocratic (Authoritarian)** – The leader makes decisions unilaterally and expects strict compliance, valuing speed and control over participation.  
-- **Benevolent Dictator** – One person retains full authority but tempers it with genuine concern for followers’ welfare, guiding firmly yet protectively.  
-- **Democratic (Participative)** – Decisions are made with substantial input from the team, fostering engagement and shared ownership of outcomes.  
-- **Laissez-Faire** – The leader provides minimal direction, giving team members maximum autonomy to define goals and methods.  
-- **Transactional** – Relies on clear structures of rewards and penalties, focusing on performance against defined objectives.  
-- **Charismatic and Visionary** – Uses personal magnetism and emotional appeal to rally commitment and drive momentum toward the leader’s goals. Paints a clear, future-oriented picture and aligns people by connecting their work to that larger purpose.  
-
-
-In my experience, startup teams and smaller teams work well with the servant leadership approach. When growing a team and product at a fast pace, serving your team and enabling autonomous execution is essential.
-
-{: .warning }
-> **Servant Leadership Trap**: Resist the tendency to step in and take over when problems arise. Instead of saying "don't worry, I'll take care of it," guide your team to solve the problem themselves. Your role is to help, not to fix.
-
-
-## The Management Trap
-
-As you become more senior, you'll gradually move away from hands-on technical work. While this is inevitable and necessary, it can be detrimental to your effectiveness. You risk losing the skills and intuitions needed to effectively manage an engineering organization, disconnecting from the daily realities your team faces, and ultimately becoming a less effective manager.
-
-### Staying Technical
-
-Here are strategies that have helped me "stay in the trenches":
-
-- **Take small, non-critical projects**: Work on unit tests, library upgrades, or minor features. This keeps skills fresh and provides insight into engineers' daily challenges.
-- **Participate in code reviews**: Stay current on architecture patterns and implementation approaches.
-- **Be an "Eagle Eye"**: Observe actively and assist team members when they struggle, maintaining technical credibility while building trust.
-
-These strategies help keep technical skills current and imposter syndrome in check. Find what works for you—the key is maintaining some connection to the actual work.
+It is a working manager's manual, not a theory book. You won't find much debate over which leadership framework is "correct." You'll find what I did, why, and what I would do again.
 
 {: .note }
-> **Related Reading**: This concept relates to Paul Graham's "Maker's Schedule vs Manager's Schedule" and Cal Newport's "Deep Work" more than "Founder Mode vs Manager Mode."
-{: .note } 
-> 💡 **But everything boils down to**:
-> Happy and engaged engineers will build great products that ultimately create happy and loyal customers.
+> You **lead people** and **manage things**. If you remember nothing else from this book, remember that.
 
-# The People, The Product, The Resources
+## Who this is for
 
-This handbook focuses on three core management competencies, listed in order of priority:
+- **New first-line managers** — engineers who just got promoted or were hired as EMs and need an operating manual for the first two years.
+- **Experienced managers joining a startup** — comfortable managing at scale, but new to the compressed, under-supported realities of a 0–50 engineer org.
+- **Founders and CTOs** building their first engineering team and deciding how they want it to run.
 
-1. **People**: A productive team is the foundation of success. Fostering collaboration and alignment ensures the right things get done. While a great team doesn't guarantee a great product, a bad team rarely builds one.
+If you manage 200+ engineers across multiple layers, this book will feel too tactical. The [Recommended Reading]({% link references.md %}) section points you toward the books that go deeper.
 
-2. **Product**: Without a product, there is no company. Building and shipping a great product on time is essential to organizational success.
+## How to use it
 
-3. **Resources**: Managing the resources your team needs—budget, tools, time—to develop and ship the product effectively.
+Read it start-to-finish the first time — the parts build on each other. After that, it's a reference. The **[First 90 Days]({{ '/foundations/first-90-days.html' | relative_url }})** chapter is the most-bookmarked page for new EMs. The chapters on **[Performance & Development]({{ '/people/performance-development.html' | relative_url }})** and **[Team Structure]({{ '/org-design/team-structure.html' | relative_url }})** are the ones experienced managers come back to most.
 
-The handbook is organized around these three themes, with additional coverage of operational topics like DevOps, security, and tooling.
+Fork it. Adapt it. Disagree with it. Management is not about copying someone else's playbook — it's about building your own and being deliberate about it.
 
-## Handbook Structure
+## What's inside
 
-### [Management](./management/)
-The core management disciplines:
-* **[People Management](./management/people.html)** - Building, growing, and leading your team
-* **[Product Management](./management/product.html)** - Delivering products and managing projects
-* **[Resource Management](./management/resources.html)** - Budgets, compensation, and resource allocation
+The book is organized into six parts, in the order you'll actually need them:
 
-### [Operational](./operational/)
-Supporting practices for effective engineering organizations:
-* **[Security & Compliance](./operational/security.html)** - Managing security, regulations, and compliance
-* **[CI/CD & DevOps](./operational/devops.html)** - Continuous delivery and operational excellence
-* **[Tools](./operational/tooling.html)** - Selecting and managing engineering tools
+- **Part I — [Foundations]({{ '/foundations/' | relative_url }})**: What management is, what it isn't, and how to survive your first 90 days.
+- **Part II — [People]({{ '/people/' | relative_url }})**: Fundamentals, hiring, onboarding, performance, and development.
+- **Part III — [Org Design]({{ '/org-design/' | relative_url }})**: How to structure teams so the work actually flows.
+- **Part IV — [Delivery]({{ '/delivery/' | relative_url }})**: Product, projects, operations, communication, and the new realities of managing in the AI era.
+- **Part V — [Resources]({{ '/resources/' | relative_url }})**: Budgets, compensation, headcount planning.
+- **Part VI — [Infrastructure]({{ '/infrastructure/' | relative_url }})**: What an EM needs to know about DevOps and security.
+
+Plus a [References]({% link references.md %}) appendix with every book, framework, and tool I found worth pointing to.
+
+{: .warning }
+> This is a living document. As your organization grows and evolves, adapt these principles accordingly. Embrace change, continuously strive for improvement, and feel free to fork this handbook to meet your own context.
+
+## A note to new managers
+
+Managing people is hard, and the mistakes can have lasting impact. Unlike product development, you cannot A/B test management decisions — so learning from other people's experience matters more than usual. That's most of what this book is.
+
+If you feel like an imposter, you're in good company. A little imposter syndrome is healthy: it keeps you listening. Too much of it and you'll hesitate when your team needs a decision. Pick the threshold where it makes you thoughtful but not paralyzed, and start there.
