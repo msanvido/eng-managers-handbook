@@ -20,6 +20,9 @@ Your most important goal is to set up each engineer for success and maximize the
 
 Once the goal is clear, the job becomes monitoring and supporting, not directing. You hired smart people. Let them do what they're best at. Your role is to watch the system the way you'd watch a production service: notice drift, notice bottlenecks, scale up and down, and fix the things that break before they become incidents.
 
+{: .warning }
+> **Engineers are not machines.** A surprising number of companies still try to optimize engineering output as though engineers were constant-throughput workers pinned to the most important item in the queue. That model ignores: the human cost of context-switching, the difference between work that energizes and work that drains, the interpersonal dynamics between teammates, what's happening in their personal lives, and the fact that motivation is not a fixed quantity. You can ignore these factors for a quarter; you cannot ignore them for a year.
+
 A non-exhaustive list of the levers you actually have:
 
 * **Distribute workload** across the team evenly, matched to know-how, capability, and interest.
@@ -132,6 +135,8 @@ Your job is to notice what's happening before it becomes a problem. That starts 
 
 {: .warning }
 > These are **not metrics to track**. They are *logs* that help you debug. The moment you start rewarding people for tickets-per-sprint or commits-per-week, you've taught them to game you instead of doing good work. You care about impact, and impact is not measured in commits.
+
+This is the application of **Goodhart's Law**: *"When a measure becomes a target, it ceases to be a good measure."* The moment you convert an engineering signal into a performance target, your team will find the shortest path to hitting the number — usually at the expense of the thing you actually wanted. Use the signals for debugging, not scoring.
 
 ### The levers you have when something needs to change
 

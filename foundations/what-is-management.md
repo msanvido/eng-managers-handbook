@@ -49,12 +49,37 @@ Management does not require being liked. The right decisions are sometimes unpop
 
 Without these, no leadership style will do the work for you.
 
+{: .warning }
+> **The culture of your team is dictated by the worst behavior you are willing to tolerate.** Say it again. Every shortcut you ignore, every interruption you allow, every low-effort PR you merge without pushback — that's your bar. Your team reads it more clearly than any values doc.
+
+### What the research says
+
+Two pieces of management research worth knowing — the book doesn't lean on them, but they ground the practice in evidence rather than opinion.
+
+- **Google's Project Oxygen** studied what actually differentiated the company's best managers from the worst. The top behaviors were not technical: being a good coach, empowering the team without micromanaging, showing interest in team members' success and well-being, being results-oriented, being a good communicator. Technical depth was on the list, but near the bottom.
+- **Gallup's *First, Break All the Rules*** — based on decades of interviews with great managers — identified four things great managers do differently: (1) they select for *talent*, not experience or knowledge; (2) they define the right *outcomes*, not the steps to get there; (3) they focus on building people's *strengths* rather than fixing their weaknesses; (4) they help each person find the *right fit* — the role where they'll thrive.
+
+Both converge on the same point: great management is not about being the smartest technical person in the room. It is about selecting, directing, and enabling the people who are.
+
+### The dysfunctional version
+
+You can also recognize bad management by its negative space. The three symptoms I see most often in dysfunctional teams — call it "Leadership Dysfunctional Disorder" if you want a name for it:
+
+- **"I don't know who is accountable."**
+- **"My teammates don't trust each other."**
+- **"Our purpose and priorities are unclear."**
+
+The classic instance is the "pigeon boss" — the kind of manager you never see, until they fly in, shit all over everything, and fly right back out. If you hear any of the three sentences above from your team about you, fix the corresponding failure mode first. Everything else in management is easier once accountability, trust, and clarity are in place.
+
 ## Leadership style
 
 There's a large literature on leadership styles: servant, autocratic, benevolent dictator, democratic, laissez-faire, transactional, charismatic. Read it if you're curious. In practice, only two things matter:
 
 1. **Pick a style that matches who you actually are.** Adopting a persona that doesn't fit you will show up in small inconsistencies, and your team will notice long before you do.
 2. **At startup scale, default to servant leadership.** When you're growing a team and a product at the same time, the fastest way to move is to remove obstacles, enable autonomous execution, and let smart people do what you hired them for. You lead by serving, not by directing.
+
+{: .note }
+> **In order to be a great leader, you must be yourself.** Every imitation of another leader's style will be detected by your team, and every detection costs you trust. Your version of management is the only version that will compound over time.
 
 See [servant leadership](https://en.wikipedia.org/wiki/Servant_leadership) if you want the academic framing. See most of the rest of this book for what it looks like in practice.
 
@@ -92,3 +117,6 @@ That's the whole book.
 
 {: .important }
 > Happy, engaged engineers build great products. Great products create loyal customers. Every other management trick is downstream of this. Don't lose sight of the order.
+
+{: .note }
+> Constantly prune bullshit. — *Paul Graham*

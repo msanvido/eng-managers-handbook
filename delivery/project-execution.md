@@ -198,9 +198,12 @@ Debt is not always bad. A startup that refuses to take on any tech debt is almos
 |--------|-------------|
 | Impact on velocity | How much does this slow us down? |
 | Risk | Probability of causing bugs or outages? |
+| Contagion | How fast does this spread through the codebase? |
 | Effort to fix | 1 = hours, 5 = weeks |
 
-**Total Score = Impact + Risk − Effort**. Higher = higher priority.
+**Total Score = Impact + Risk + Contagion − Effort**. Higher = higher priority.
+
+The contagion factor is the one most teams miss. A flaky test that gets copy-pasted into every new test file spreads faster than its impact score would suggest — and by the time you notice, the cleanup is an order of magnitude more expensive than fixing the original. Riot Games' [taxonomy of tech debt](https://engineering.riotgames.com/news/taxonomy-tech-debt) is the clearest treatment of this contagion idea and worth reading in full.
 
 **Example:**
 ```markdown
@@ -208,9 +211,10 @@ Debt is not always bad. A startup that refuses to take on any tech debt is almos
 
 Impact on velocity: 4 (blocking new features)
 Risk: 3 (moderate incompatibilities)
+Contagion: 2 (isolated to one service)
 Effort: 4 (2-3 weeks work)
 
-Score: 4 + 3 − 4 = 3 (Medium priority)
+Score: 4 + 3 + 2 − 4 = 5 (Medium-high priority)
 ```
 
 ### Allocating time for tech debt
@@ -254,6 +258,23 @@ The 20% is a steady-state budget. It's what keeps a team from compounding into u
 ## Decision making
 
 Track important decisions so you can improve future decisions, not just the current one.
+
+### Inverse thinking: plan the bad outcome
+
+One of the most underused techniques in project planning is deliberate *inverse thinking*. Instead of asking "how do we succeed?", ask the harder question: "how do we fail?" Then plan specifically to avoid each failure mode you just invented.
+
+A practical form is the **premortem** — a 30-minute meeting at the start of a project where the team assumes the project has already failed, spectacularly, and writes down the reasons why. The reasons you generate this way are nearly always richer than the ones you'd generate by asking "what could go wrong?" The loss frame forces a different kind of honesty.
+
+Apply this at two levels:
+
+- **Project start.** Ten minutes as a team. "It is now six months later, the project failed, and the retrospective is being written. What does it say?" The failure modes that surface are your first risk list — and usually more specific than the ones in the design doc.
+- **Decision points.** For any non-trivial decision, spend one minute asking *what would have to be true for this to be wrong?* If you can't answer, you don't understand the decision yet.
+
+### The straight line isn't always the fastest path
+
+Worth keeping in mind on longer projects: the **brachistochrone curve** — a classic physics problem showing that the fastest path from A to B under gravity is not the straight line, but a specific curve that first drops deeper than B before rising. The generalized lesson is that optimal paths often look counterintuitive from the starting point. Spending a week on platform work before feature work, taking a quarter to pay down debt before a launch, hiring before you "have" the headcount — these are often the curves that get you there faster than the straight line. The instinct to "just get started" is not always the fastest instinct.
+
+### The decision log
 
 **Decision log template:**
 ```markdown

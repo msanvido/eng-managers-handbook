@@ -230,6 +230,12 @@ What could go wrong?
 
 Only estimate after you have design feedback and understand dependencies. Estimating before design is a recipe for numbers everyone regrets.
 
+{: .note }
+> **Newtonian approximation for planning.** Don't try to produce a perfect timeline in one pass. Start with a coarse estimate, attach an explicit probability to it ("70% confident we hit 6 weeks, 90% confident on 8"), and refine over time as uncertainty collapses. A plan with attached confidence beats a plan with false precision — because it tells your stakeholders *what to worry about*, not just *when to expect it*.
+
+{: .warning }
+> **Parkinson's Law** states: *"Work expands to fill the time available for its completion."* A colleague of mine once described projects as **gas particles** — given a fixed timeframe, a project will expand to occupy all of it. The job is to deliberately *compress* the project until the non-essential parts get squeezed out. Buffer is necessary; loose scope is not. The 30% buffer below is for unknowns, not for scope creep you could have cut.
+
 **Estimation example (analytics dashboard):**
 
 | Task | Estimate | Dependencies | Risk Level |

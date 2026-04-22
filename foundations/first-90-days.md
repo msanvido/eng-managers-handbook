@@ -22,6 +22,9 @@ The first 90 days is the one period where you have explicit permission to listen
 
 This chapter is built around one assumption: your job in the first 90 days is **not** to execute. It is to earn the right to execute later.
 
+{: .note }
+> **Credibility is never given — it is always gained.** Your title gets you the meeting. Everything after that depends on what you actually do in front of the team in the next 90 days. Plan accordingly.
+
 {: .warning }
 > The most common new-EM mistake is jumping to execution before establishing trust. Running fast in the first 30 days is *not* a positive signal — it usually means you're avoiding the slower, less visible work of figuring out what's actually going on.
 

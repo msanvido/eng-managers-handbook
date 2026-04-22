@@ -81,6 +81,11 @@ This section provides links to practical templates, frameworks, and resources fo
 
 ### Team Management
 
+**Team Health**
+- [Atlassian Team Health Monitor](https://www.atlassian.com/team-playbook/health-monitor) - A structured self-assessment for team health across eight dimensions
+- [Atlassian Team Playbook](https://www.atlassian.com/team-playbook) - Field-tested "plays" for team problems (retrospectives, DACI, working agreements, etc.)
+- [Skyscanner: 5 Leadership Behaviors of Great Culture](https://medium.com/skyscanner-people/5-leadership-behaviors-of-great-culture-3c3ac4182e33) - Practical writeup of culture-setting leadership behaviors
+
 **Vacation and Time-Off Tracking**
 - Use your HRIS system (BambooHR, Rippling, Gusto, etc.)
 - [PTO Tracker Template](https://www.smartsheet.com/pto-tracker-templates) - Spreadsheet templates
@@ -99,6 +104,7 @@ This section provides links to practical templates, frameworks, and resources fo
 ### Technical Debt and Engineering Metrics
 
 **Technical Debt Assessment**
+- [Riot Games: Taxonomy of Tech Debt](https://engineering.riotgames.com/news/taxonomy-tech-debt) - Impact, cost-to-fix, and *contagion* — the clearest treatment of how tech debt spreads
 - [Technical Debt Quadrant](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html) - Martin Fowler's framework
 - [Tech Debt Assessment Template](https://github.com/ericclemmons/tech-debt) - GitHub template for tracking
 - [Measuring Technical Debt](https://queue.acm.org/detail.cfm?id=2721297) - ACM article
@@ -155,6 +161,16 @@ This section provides links to practical templates, frameworks, and resources fo
 - [Conway's Law](http://www.melconway.com/Home/Conways_Law.html) - "How Do Committees Invent?" by Melvin Conway (1968)
 - [Servant Leadership](https://en.wikipedia.org/wiki/Servant_leadership) - Leadership philosophy centered on serving others
 - [The Imposter Phenomenon Revisited](https://www.researchgate.net/publication/355362556_The_Impostor_Phenomenon_Revisited_Examining_the_Relationship_between_Workplace_Impostor_Thoughts_and_Interpersonal_Effectiveness_at_Work) - Research on imposter syndrome
+- [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law) - "When a measure becomes a target, it ceases to be a good measure"
+- [Peter Principle](https://en.wikipedia.org/wiki/Peter_principle) - The tendency to rise to one's level of incompetence in hierarchies
+- [Parkinson's Law](https://en.wikipedia.org/wiki/Parkinson%27s_law) - "Work expands so as to fill the time available for its completion"
+- [Brachistochrone curve](https://en.wikipedia.org/wiki/Brachistochrone_curve) - The classic physics problem showing the fastest path from A to B is often not a straight line
+
+**Management Research**
+- [Google's Project Oxygen](https://rework.withgoogle.com/guides/managers-identify-what-makes-a-great-manager/) - What actually differentiates great managers from bad ones (Google internal research)
+- [First, Break All the Rules](https://www.gallup.com/cliftonstrengths/en/253715/first-break-all-rules-great-managers-differently.aspx) - Gallup's research on what the world's greatest managers do differently
+- [SPACE Framework](https://queue.acm.org/detail.cfm?id=3454124) - Developer productivity framework (ACM)
+- [DORA Metrics](https://www.atlassian.com/devops/frameworks/dora-metrics) - DevOps Research and Assessment
 
 **Management Philosophy**
 - [Maker's Schedule, Manager's Schedule](http://www.paulgraham.com/makersschedule.html) by Paul Graham - Understanding different work modes
@@ -166,6 +182,11 @@ This section provides links to practical templates, frameworks, and resources fo
 - [LeadDev](https://leaddev.com/) - Community and resources for tech leads
 - [Rands in Repose](https://randsinrepose.com/) - Michael Lopp's management blog
 - [Irrational Exuberance](https://lethain.com/) - Will Larson's engineering leadership writing
+- [Charity Majors: do we need engineering managers?](https://charity.wtf/2024/01/05/questionable-advice-my-boss-says-we-dont-need-any-engineering-managers-is-he-right/) - A sharp defense of the engineering manager role
+- [a16z: The first rule of leadership](https://a16z.com/2017/11/02/the-first-rule-of-leadership/) - "To be a great leader, you must be yourself"
+- [Altos VC: Foxes and Hedgehogs](https://altos.vc/blog/foxes-and-hedgehogs) - On the different cognitive styles of leaders
+- [O'Reilly Radar: How I failed](https://www.oreilly.com/radar/how-i-failed/) - Tim O'Reilly's public retrospective on mistakes he made as a leader
+- [HBR: How to push your team to take risks and experiment](https://hbr.org/2017/03/how-to-push-your-team-to-take-risks-and-experiment) - Why static best practices are their own kind of failure
 
 **Managing in the AI Era**
 - [The Pragmatic Engineer on AI](https://newsletter.pragmaticengineer.com/) - Ongoing coverage of AI's impact on engineering teams

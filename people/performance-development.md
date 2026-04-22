@@ -67,6 +67,13 @@ Performance reviews should be done regularly to provide structured feedback, ali
 
 OKRs are a goal-setting framework to align company, team, and individual objectives.
 
+{: .note }
+> *"Success is not checking a box. Success is having an impact."*
+> 
+> — Christina Wodtke, OKR author
+> 
+> The project-management triangle — on-time, on-scope, on-budget — is not enough. The project must be delivered *successfully*: the objectives that motivated it in the first place have to be reached. OKRs exist to keep that the real scorecard.
+
 ### Structure
 
 **Objectives** are qualitative goals that are ambitious and inspirational.
@@ -214,6 +221,9 @@ Promotions should be based on:
 
 {: .important }
 > Engineers should already be performing at the next level before being promoted. Promotions recognize past performance, not future potential.
+
+{: .warning }
+> This is also your defense against the **Peter Principle**: *"In a hierarchy, every employee tends to rise to their level of incompetence."* If you promote people for doing well at their current level — instead of for already operating at the next one — you will systematically promote engineers into roles they cannot do. Then you'll wonder why your senior tier underperforms. Promote for evidence of next-level behavior, not for length of time at this level.
 
 ### Delivering the news
 

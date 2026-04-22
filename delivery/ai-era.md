@@ -124,6 +124,13 @@ What you should not do: pretend nothing has changed, or pretend everything has c
 {: .note }
 > The managers doing this best right now are the ones treating the transition as a shared problem — "we're figuring this out together, and I'll be honest with you about what I'm seeing" — rather than either cheerleading or catastrophizing. Your team's trust in you is built in exactly these moments.
 
+{: .note }
+> *"The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn."*
+> 
+> — Alvin Toffler
+> 
+> The quote is from 1970. It is more true now than when he wrote it. The engineers on your team who will thrive through this transition are the ones who treat their current skill set as a starting point, not an endpoint — and the ones who will struggle are the ones who don't.
+
 ## Managing for and with AI: the scaffolding
 
 All of the above is a set of problems. This section is the set of answers — or at least the three organizational practices that separate teams using AI well from teams that are either drifting or blocked.
@@ -143,6 +150,13 @@ The czar's mandate has three parts:
 **c) Cheerlead AI initiatives.** Someone has to be visibly enthusiastic about experimentation without tipping into tool-evangelism. The czar lowers the activation energy for engineers trying new things — writing up what worked, running a short "have you tried this?" demo, removing the procurement friction around a $500/month tool that would save two engineers ten hours a week. They are not the person who dictates what the team should use. They are the person who makes it easy to try.
 
 Why a single person: AI adoption in a team is a coordination problem as much as a technical one. Distributed responsibility produces distributed inattention. One name on the door means one throat to choke and one brain keeping the context current.
+
+{: .warning }
+> *"When everybody owns something, nobody owns it, and nobody has a direct interest in maintaining or improving its condition."*
+> 
+> — Milton Friedman
+> 
+> This is the case for a single named owner, in one sentence. It applies to engineering systems, to shared documents, to on-call rotations, and absolutely to AI adoption. A tooling choice "everyone is thinking about" is a tooling choice nobody is thinking about.
 
 ### A safe place to learn from each other
 

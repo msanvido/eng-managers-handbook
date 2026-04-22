@@ -68,6 +68,14 @@ Building a great team starts with hiring the right people. A thoughtful, structu
 * Back-channel references — when appropriate and with candidate permission.
 * Validate claims about past work and achievements.
 
+### An opinionated aside: hire PhDs for the important jobs
+
+For the hardest, most load-bearing roles on your team — the people who will define systems, solve problems nobody has solved before, and carry the company through technical bets — I look for candidates with PhDs. Not because the degree itself matters, but because completing one is a costly signal for a specific combination of traits: endurance through a long, low-paid, high-pressure period; the discipline to stay focused on a single long-horizon goal; and the habit of going deep on problems rather than declaring victory at surface level. Self-driven, motivated to learn, willing to think hard about things that resist quick answers — these are the traits the PhD filter selects for.
+
+The usual caveats apply: this is a heuristic, not a rule. Culture fit still has to pass. And some of the best engineers I've worked with were drop-outs — so the filter cuts both ways; stay curious when someone doesn't fit the pattern.
+
+For the repetitive, well-specified work, the PhD filter is overkill and usually counterproductive. Match the filter to the role.
+
 ## Giving offers
 
 Making an offer is a critical moment in the hiring process. Handle it thoughtfully to maximize acceptance rates.

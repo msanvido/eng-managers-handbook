@@ -532,6 +532,26 @@ Most organizations evolve through successive structures as they grow. Knowing wh
 
 The transitions are where most of the pain lives. 10 → 30 and 30 → 100 are both structural phase changes — what worked at the lower end actively breaks at the upper end.
 
+### Commandos, infantry, and police: matching people to the stage
+
+A useful frame from Robert X. Cringely's *Accidental Empires* — who observed that Silicon Valley companies need three different kinds of people across the lifecycle, and that the same person is rarely great at more than one:
+
+- **Commandos** thrive in the 1-10 engineer stage. They land in hostile territory with no map, improvise, ship something that shouldn't work, and move on. High tolerance for chaos, low tolerance for process. They're the first hires and the ones who make the company exist at all.
+- **Infantry** is the 10-50 engineer wave. They take the beachhead the commandos established and turn it into held territory — productionize the prototypes, add the tests, build the scalable systems. They need some structure but still operate well under uncertainty.
+- **Police** come in at scale (50+ engineers). They hold territory: enforce standards, maintain quality, manage compliance, run the established systems. They need and build the process that the earlier waves resisted.
+
+The critical insight: **most people are only great at one of these stages.** A great commando is often a terrible police officer — they'll chafe at the process they're supposed to enforce and leave. A great police officer parachuted into a 5-person startup will insist on structure that strangles the team.
+
+Your job at a transition is to recognize which stage the company is entering and match hiring — and sometimes the existing team — to it. Some of your early commandos will not want to be infantry, and will leave. That is fine, and expected. Honoring their commando contribution on the way out is part of the job.
+
+### Alignment is the org's hidden variable
+
+Every individual engineer, left alone, moves in a somewhat random direction — the aggregate looks like Brownian motion. The team's collective velocity is a function of how *aligned* those individual vectors are. Perfect alignment and the team moves as one; no alignment and the team appears busy but the center of mass barely shifts.
+
+This is why an existential threat — a looming deadline, a real competitor, a funding cliff — often produces the highest-velocity periods in a company's history. The threat forces alignment the way a magnet aligns iron filings. The harder question is how to produce alignment *without* the threat: a clear and repeated vision, explicit priorities that everyone can recite, and a willingness to be boring about saying the same things in the same order for months on end.
+
+The bigger the company, the harder the alignment problem — and the more of the manager's job it becomes.
+
 ## How to choose (and re-choose) a structure
 
 Factors that should drive the decision:

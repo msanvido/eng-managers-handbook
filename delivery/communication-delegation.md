@@ -267,6 +267,11 @@ The underlying pattern, every time:
 
 ## Delegation
 
+{: .note }
+> *"It is not my job to make the decision. It is my job to make sure the best decision gets made."*
+> 
+> Hold on to that framing. The instinct of a strong-IC-turned-manager is to *be* the decision-maker, because that's how you added value before. It isn't anymore. Your leverage now is in making sure the decision happens, by the right people, with the right context, on the right timescale — not in making it yourself.
+
 ### Delegate ownership, not tasks
 
 **Bad delegation:**
@@ -280,6 +285,9 @@ The underlying pattern, every time:
 - Space to learn and grow.
 - You review the approach, not the micromanage.
 - You build future leaders.
+
+{: .note }
+> **A physics metaphor, for the engineers in the room.** A useful mental model for the manager's role in delegation: your job is to identify each engineer's *potential energy* — the direction they naturally want to fall given who they are and what they care about — and then shape the valley so that the path of least resistance leads to where the team needs to go. You're not pushing them down the slope. You're arranging the landscape so the slope goes the right way. The engineer does the work; the gravity does the work on them; your work is on the landscape.
 
 ### Delegation levels
 

@@ -12,6 +12,13 @@ hide_reading_time: true
 
 <p class="part-index__lede">A productive team is the foundation of everything else. A great team doesn't guarantee a great product, but a broken team guarantees a bad one.</p>
 
+{: .note }
+> "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel."
+> 
+> — *Maya Angelou*
+
+Hold on to that quote through every hard conversation, every missed promotion, every layoff. Of everything in this part, it is the one thing that compounds most reliably over a career.
+
 {: .note-title }
 > Personal note
 > 

@@ -18,6 +18,13 @@ parent: IV. Delivery
 
 This chapter covers the operational practices that turn "the team shipped the feature" into "the feature actually works in production over time": release strategy and feature flags, quality and testing, on-call management, and how to choose an agile methodology that fits your team instead of the other way around.
 
+{: .note }
+> *"Amateurs talk strategy and tactics. Professionals talk operations."*
+> 
+> — often attributed to General Omar Bradley
+> 
+> The quote's attribution is contested; the wisdom is not. The difference between a team that ships a great feature once and a team that ships great features reliably is almost entirely operational. It is the least glamorous part of the job and the most consequential.
+
 ## Releases and deployment
 
 ### Release strategy
@@ -28,6 +35,8 @@ This chapter covers the operational practices that turn "the team shipped the fe
 - **Major releases**: quarterly (coordinated with marketing).
 
 The specifics matter less than the predictability. Engineers need to know when their code reaches production so they can plan around it. Customers — internal and external — need to know when they can expect changes.
+
+Every product has a **maximum sustainable speed of delivery to customers**. Ship faster than that and the bug rate in the field climbs until you're spending more time firefighting than building. Ship slower than that and the product is held back from customers who need it, competitors overtake you, and the team loses the feedback loop that keeps them sharp. Finding your team's sustainable speed — and operating at it, not above or below — is one of the quieter operational judgments a manager makes.
 
 ### Feature flags
 
