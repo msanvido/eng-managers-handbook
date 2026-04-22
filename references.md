@@ -1,6 +1,6 @@
 ---
 title: Appendix — References
-layout: home
+layout: default
 nav_order: 99
 hide_reading_time: true
 ---
