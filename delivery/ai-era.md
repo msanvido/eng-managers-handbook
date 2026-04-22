@@ -124,6 +124,57 @@ What you should not do: pretend nothing has changed, or pretend everything has c
 {: .note }
 > The managers doing this best right now are the ones treating the transition as a shared problem — "we're figuring this out together, and I'll be honest with you about what I'm seeing" — rather than either cheerleading or catastrophizing. Your team's trust in you is built in exactly these moments.
 
+## Managing for and with AI: the scaffolding
+
+All of the above is a set of problems. This section is the set of answers — or at least the three organizational practices that separate teams using AI well from teams that are either drifting or blocked.
+
+Three things need to exist, explicitly and by name, in your org. If any of them is missing, you are flying blind on the most volatile technology shift in engineering's recent history.
+
+### You need an AI czar
+
+One person, accountable and named. Not a committee, not a working group, not "it's on everyone's roadmap." A single human whose job includes this, with 20-50% of their time allocated to it. Usually a senior engineer — occasionally a staff-plus IC — rarely a manager in the traditional sense, because the work requires hands-on technical depth.
+
+The czar's mandate has three parts:
+
+**a) Stay current on what actually matters — not on the latest fad.** The AI space produces a new "breakthrough" every week, and most of them don't survive contact with production. The czar's job is the filter: which new models, tools, and techniques are genuinely worth the team's attention, and which are noise. Without this filter, the team either chases everything and ships nothing, or tunes out completely and falls behind. Both failure modes are real, and both are expensive.
+
+**b) Own the spend.** Token costs, API subscriptions, agent runtimes, the coding assistants you pay per seat, the model licensing. At most startups this is now a material budget line — often 5-figure monthly and climbing — and nobody explicitly owns it until someone notices it doubled last quarter. The czar tracks it, forecasts it, and optimizes it. They know, per engineer, what the AI spend is, and whether it's producing proportional value.
+
+**c) Cheerlead AI initiatives.** Someone has to be visibly enthusiastic about experimentation without tipping into tool-evangelism. The czar lowers the activation energy for engineers trying new things — writing up what worked, running a short "have you tried this?" demo, removing the procurement friction around a $500/month tool that would save two engineers ten hours a week. They are not the person who dictates what the team should use. They are the person who makes it easy to try.
+
+Why a single person: AI adoption in a team is a coordination problem as much as a technical one. Distributed responsibility produces distributed inattention. One name on the door means one throat to choke and one brain keeping the context current.
+
+### A safe place to learn from each other
+
+Engineers are experimenting with AI tools in isolation right now. Some are shipping 3x more than they used to and hiding it because they feel like they're "cheating." Others are struggling to integrate agents at all and hiding *that* because everyone else seems to have it figured out. Both groups are losing time, and the team is losing the collective learning.
+
+You need a structured forum. Not an #ai-tools Slack channel that devolves into link-dropping — an actual working session.
+
+Concrete shape that works at a 10-30 person engineering org:
+
+- Biweekly, 30 minutes, standing meeting.
+- Two or three engineers present, five minutes each: *here's what I tried, here's the outcome, here's what I'd do differently.*
+- **Negative examples count as much as positive ones.** "The agent rewrote my authentication logic in a way that almost shipped a security bug — here's how I caught it" is more valuable than another "look how fast I went" demo. Losses you hide are losses your teammates repeat.
+- No performative praise. No demo-day theater. This is an engineering review, not a marketing event.
+
+The point of this forum is not to spread "best practices." It is to *normalize sharing*. Once engineers see their peers openly describing failures and half-working workflows, the shadow-adoption problem solves itself within a couple of months.
+
+### A harness that makes it safe to fail
+
+An engineer with an agent can open a dozen PRs in a night. Your CI/CD pipeline and review process have to be robust enough that no single bad contribution — from an agent or from a distracted human — can reach production. This was already true in principle. In 2026 it is true in practice, because the volume of low-attention PRs has materially increased.
+
+Minimum requirements:
+
+- **Test coverage that meaningfully exercises the code paths agents touch.** Coverage percentage alone is misleading; what matters is whether the tests would actually catch the classes of mistake agents make (subtle semantics changes, missing edge cases, security-relevant regressions).
+- **Hard CI gates**: type checking, linting, security scanning, dependency analysis, secret detection. None of these are optional. All of them block merge.
+- **Mandatory human review on every agent-generated PR.** Not rubber-stamp review — actual review, by someone who could defend the change in a design discussion. The reviewer is now the load-bearing member of the pipeline, and you should staff and train accordingly.
+- **Production observability that surfaces the unusual within minutes.** When something does slip through, you want to see it in the dashboards and alerts, not in a customer email three days later.
+
+The test of whether you're ready: state this sentence, out loud, and mean it. *"An agent cannot ship bad code to production in our org without at least one human looking at it and CI catching the obvious problems."* If you can't honestly make that statement, you are not ready to scale up agent use — fix the harness first. Scaling AI adoption on top of a weak pipeline is how you end up with an incident postmortem titled "we don't actually know how this got merged."
+
+{: .warning }
+> The most common mistake I see in 2026 is treating AI adoption as a tooling decision — "we bought Cursor for the team, we're good." AI adoption is an organizational-infrastructure decision. The tool is 10% of it. The czar, the shared-learning forum, and the harness are the other 90%, and they are the difference between compounding wins and compounding risk.
+
 ## What still holds
 
 Most of this book's advice hasn't changed. Specifically:
