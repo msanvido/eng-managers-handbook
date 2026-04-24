@@ -138,3 +138,12 @@ Each part-index page currently has only an eyebrow + lede. A small visual motif 
 **Session 3 (polish):** Items 4.1 through 4.4 — full copyedit pass, callout audit, link audit.
 
 **Session 4 (v1.1 content):** Items 2.1, 2.2 — Remote/Hybrid chapter and Managing Managers appendix. Can be published as a v1.1 update after the initial book is out.
+
+
+
+
+REading pass:
+ foudnations -> good
+ people/fundamentals -> good
+ people lifecycles -> good
+ 

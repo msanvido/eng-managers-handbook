@@ -21,7 +21,7 @@ Your most important goal is to set up each engineer for success and maximize the
 Once the goal is clear, the job becomes monitoring and supporting, not directing. You hired smart people. Let them do what they're best at. Your role is to watch the system the way you'd watch a production service: notice drift, notice bottlenecks, scale up and down, and fix the things that break before they become incidents.
 
 {: .warning }
-> **Engineers are not machines.** A surprising number of companies still try to optimize engineering output as though engineers were constant-throughput workers pinned to the most important item in the queue. That model ignores: the human cost of context-switching, the difference between work that energizes and work that drains, the interpersonal dynamics between teammates, what's happening in their personal lives, and the fact that motivation is not a fixed quantity. You can ignore these factors for a quarter; you cannot ignore them for a year.
+> **Engineers are not machines.** A surprising number of companies still try to optimize engineering output as though engineers were constant-throughput workers pinned to the most important item in the queue. That model ignores: the human cost of context-switching, the difference between work that energizes and work that de-energizes, the interpersonal dynamics between teammates, what's happening in their personal lives, and the fact that motivation is not a fixed quantity. You can ignore these factors for a quarter; you cannot ignore them for a year.
 
 A non-exhaustive list of the levers you actually have:
 
@@ -76,7 +76,7 @@ Growth is part of the job, not a perk you extend to top performers.
 - Allocate team time and budget for learning — training, books, courses.
 - Celebrate knowledge sharing through lunch & learns or internal tech talks.
 - Run a learning budget per engineer (see [Resources]({{ '/resources/budgets-headcount.html' | relative_url }}) for typical numbers).
-- Treat conference attendance as recognition. Give it to the people who earned it, not to the people nearest your calendar.
+- Treat conference attendance as recognition. Give it to the people who earned it.
 
 ## Remote and distributed teams
 
@@ -94,8 +94,8 @@ A few things that matter more than any process:
 
 - Create an environment where everyone is part of the team — shares the wins, shares the losses. Think sports-team spirit, not internal competition. Competition across teammates is fun for a month and corrosive by month three. **Foster collaboration instead, deliberately.**
 - Watch for "alpha" engineers who dominate discussions and "silent" engineers who don't. Let senior engineers speak last. Ask for input from everyone, both in public and in private.
-- **Praise in public. Criticize in private.** The exception is when you want to make a point to the whole team — and even then, use it sparingly.
-- **Zero tolerance for unacceptable behavior.** Reference your company's code of conduct. If you let one incident slide, you have just set the bar for the entire team. React quickly, stop it, make sure people know you intervened, loop in your manager and HR.
+- **Praise in public. Criticize in private.** The exception is when you want to make a point to the whole team — and even then, use it sparingly. Failures are learning opportunities make sure the whole team lerns from them. 
+- **Zero tolerance for unacceptable behavior.** Reference your company's code of conduct, if you do not have one, write one now. If you let one incident slide, you have just set the bar for the entire team. React quickly, stop it, make sure people know you intervened, loop in your manager and HR.
 - Lead by example. Your team will model your habits before they model your stated values.
 
 ## Difficult conversations
@@ -110,7 +110,7 @@ The most common ones, and what tends to work:
 
 - **"You were expecting a promotion. You're not getting it."** Prepare. Be specific about what's missing. Be specific about what the path looks like. Do not soften the news to the point of ambiguity — half the damage from a denied promotion comes from the engineer thinking they were close when they weren't. If they weren't close, say so.
 
-- **"A senior engineer is blocking junior voices."** The senior isn't wrong on the technical merits — they rarely are — but the effect on the team is corrosive. Frame it as: "Your technical judgment is one of our biggest assets. The way it's landing with the junior engineers is a leadership issue." Make it about their growth as a leader, not their correctness as an engineer.
+- **"A senior engineer is blocking junior voices."** The senior isn't wrong on the technical merits — they rarely are — but the effect on the team is corrosive. Frame it as: "Your technical judgment is one of our biggest assets. The way it's landing with the junior engineers is a leadership issue.Make it about their growth as a leader, not their correctness as an engineer.
 
 - **The aftermath of a conflict.** When two engineers have had a real fight, don't just move on. Meet with each separately. Get both sides. If there's a legitimate gap, close it in a follow-up 1:1. If the gap is irreducible, you may be looking at a team change. Unresolved conflicts become the stories people tell about why they left.
 
@@ -118,6 +118,7 @@ Two patterns that help across all of these:
 
 - **Prepare the opening sentence.** Write it down. Say it out loud before the meeting. The first twenty seconds of a hard conversation are where the most damage usually happens.
 - **Leave time for silence.** Don't fill it. The engineer may need ten seconds to absorb what you said before they can respond.
+- **After the meeting.** Send an email after the meeting to summarize what was discussed. People often get defensive at first and stop listening, sending an email helps making sure the person has time to process the feedback at his pace.
 
 {: .warning }
 > The mistake is almost never having the hard conversation. The mistake is waiting three months longer than you should have.

@@ -34,7 +34,7 @@ Three chapters:
 
 1. **[People Management Fundamentals]({{ '/people/fundamentals.html' | relative_url }})** — the weekly operating mechanics: 1:1s, feedback, strength maps, workload balance, difficult conversations, remote teams, the tech lead partnership.
 
-2. **[Hiring & Onboarding]({{ '/people/hiring-onboarding.html' | relative_url }})** — building the team you need: hiring plans, interview loops, offers and equity, 30-60-90 onboarding, managing attrition.
+2. **[The People Lifecycle: Hiring, Onboarding, and Departures]({{ '/people/people-lifecycle.html' | relative_url }})** — building the team you need: hiring plans, interview loops, offers and equity, 30-60-90 onboarding, managing attrition.
 
 3. **[Performance & Development]({{ '/people/performance-development.html' | relative_url }})** — reviews, OKRs, leveling, promotions, PIPs, separations, and how to actually deliver hard feedback.
 
