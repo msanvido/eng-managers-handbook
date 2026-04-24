@@ -446,39 +446,50 @@ Projects are organized into ad hoc **cabals** — temporary cross-functional gro
 
 The Valve model is fascinating and almost entirely non-portable. It works because Valve is privately held, has a specific creative-product domain (games), hires very selectively, and has a strong cultural backbone reinforced over decades. Multiple companies that tried to copy it (or its close cousin Holacracy, see below) struggled. Useful to study as a counter-example to over-structured orgs, but not a template you can lift.
 
-### 9. Block — the multi-brand "ecosystem" model
+### 9. Block — from hierarchy to intelligence
 
-Strictly speaking this is not a team-level structure but a *company*-level one, included for contrast: it's what some structures look like when you stop trying to fit everything into one org chart.
+Block has been more public than most about a sharp departure from conventional org structure. In a 2025 post, [*From Hierarchy to Intelligence*](https://block.xyz/inside/from-hierarchy-to-intelligence), the company describes an explicit attempt to organize itself as a "company-wide intelligence" — replacing the information-routing function of middle management with AI-mediated coordination.
 
-When Square renamed itself Block in 2021, Jack Dorsey reorganized the company around semi-autonomous "ecosystems": Cash App, Square, TIDAL, TBD, Spiral. Each ecosystem has its own leadership, runs its own roadmap, and shares Block's corporate functions but very little else.
+The argument runs roughly: organizations have been bound for two thousand years by the same constraint — a manager can effectively oversee 3-8 people, so any growth past that point forces layers, and layers slow information flow. Block's bet is that AI can now perform the parts of management that were really about routing context, freeing the org to operate without permanent middle management.
 
 {% mermaid %}
 graph TD;
-    BLOCK[Block, Inc.<br>Corporate functions];
+    subgraph "System (what coordinates)";
+        CAPS[Atomic capabilities<br>Payments, Lending, Banking,<br>BNPL, Card issuance, Payroll];
+        WORLD[Company World Model<br>Continuous picture<br>of what's being built];
+        CUSTOMER[Customer World Model<br>Per-customer signals<br>from transaction data];
+        ENGINE[Intelligence Layer<br>Composes capabilities<br>into proactive solutions];
+        INTERFACES[Interfaces<br>Square, Cash App, Afterpay,<br>TIDAL, Bitkey, Proto];
+    end;
 
-    BLOCK --> CASH[Cash App<br>Consumer payments];
-    BLOCK --> SQ[Square<br>Merchant tools];
-    BLOCK --> TIDAL[TIDAL<br>Music streaming];
-    BLOCK --> TBD[TBD<br>Open finance];
-    BLOCK --> SP[Spiral<br>Bitcoin];
+    CAPS --> ENGINE;
+    WORLD <--> ENGINE;
+    CUSTOMER <--> ENGINE;
+    ENGINE --> INTERFACES;
 
-    CASH --> CASH_ENG[Own engineering org];
-    SQ --> SQ_ENG[Own engineering org];
-    TIDAL --> TIDAL_ENG[Own engineering org];
-    TBD --> TBD_ENG[Own engineering org];
-    SP --> SP_ENG[Own engineering org];
+    subgraph "People at the edge";
+        IC[ICs<br>Deep in one system layer];
+        DRI[DRIs<br>Own a cross-cutting outcome<br>for a fixed period];
+        PC[Player-coaches<br>Build + develop ICs<br>No status meetings];
+    end;
 
-    classDef parent fill:#fff3cd,stroke:#f0ad4e;
-    classDef ecosystem fill:#d1ecf1,stroke:#0275d8;
-    classDef eng fill:#d4edda,stroke:#5cb85c;
-    class BLOCK parent;
-    class CASH,SQ,TIDAL,TBD,SP ecosystem;
-    class CASH_ENG,SQ_ENG,TIDAL_ENG,TBD_ENG,SP_ENG eng;
+    IC -.->|reads context from| WORLD;
+    DRI -.->|pulls resources via| ENGINE;
+    PC -.->|mentors| IC;
+
+    classDef system fill:#d1ecf1,stroke:#0275d8;
+    classDef people fill:#d4edda,stroke:#5cb85c;
+    class CAPS,WORLD,CUSTOMER,ENGINE,INTERFACES system;
+    class IC,DRI,PC people;
 {% endmermaid %}
 
-The pattern is essentially a holding-company structure expressed inside a single legal entity. Each ecosystem makes its own internal team-shape decisions; Cash App's engineering org is structured differently from Square's. The bet is that loose coupling at the company level enables tight coupling inside each ecosystem.
+The system side is built around five components. **Atomic capabilities** are headless financial primitives — payments, lending, card issuance, banking, buy-now-pay-later, payroll — with no UI of their own. A **company world model** maintains a continuous, AI-readable picture of what's being built, what's blocked, and where resources are allocated; a parallel **customer world model** does the same per-customer (or per-merchant), built from transaction data. An **intelligence layer** composes capabilities into proactive solutions for specific moments — a restaurant's cash flow tightening before a seasonal dip, a Cash App user's signals suggesting a move to a new city. The customer-facing **interfaces** — Square, Cash App, Afterpay, TIDAL, Bitkey, Proto — are explicitly positioned as the surface, not the value.
 
-Most managers reading this book will not be operating at this scale, but the frame is useful: if your company has multiple distinct products serving genuinely different markets, asking "should these be one org or two?" is sometimes the right question — and the answer is sometimes "two."
+The people side compresses to three roles. **Individual contributors** specialize deep in one system layer; the world model gives them the context a manager used to relay, so they can decide without waiting. **Directly Responsible Individuals (DRIs)** are assigned to a specific outcome — the post's example is "merchant churn in a specific segment for 90 days" — with full authority to pull resources across teams for the duration of the assignment. **Player-coaches** combine building with developing people; they don't run status meetings or alignment sessions, because the world model is supposed to handle alignment.
+
+Whether this works is the question. Block itself says the company is in the early stages of the transition, that "parts of it will likely break before they work," and that two prerequisites are non-trivial: a remote-first, machine-readable work environment, and rich customer signal (financial transactions are unusually rich). The post is also light on the conventional org-chart questions — reporting lines, team sizes, how DRIs and player-coaches relate, how the intelligence-layer team is itself organized — which suggests the model is, at least for now, more philosophy than blueprint.
+
+Worth tracking even if you can't apply it. The interesting claim is structural: that a particular *kind* of management work (context routing, alignment maintenance, status reporting) was always system work in disguise, and that AI is finally good enough to do it.
 
 ### 10. Async-first / handbook-driven (GitLab)
 
@@ -496,7 +507,7 @@ A few patterns that had their moment and largely didn't last, worth knowing if o
 
 **Holacracy.** A formal "self-management" framework with circles instead of teams and elaborate constitutional rules. Adopted by Zappos in 2014 amid much fanfare and largely walked back. The pattern repeated elsewhere: companies adopt the form, lose the implicit structure that the old org chart provided, and end up reinventing managers under new names.
 
-**"No managers" experiments.** Several startups have tried eliminating engineering managers entirely. Some of the work distributes well to senior engineers. The rest — career development, performance feedback, conflict resolution, advocacy upward — doesn't, and tends to either fall on whichever senior engineer is most empathetic (a brutal tax on them) or simply not happen. Most companies that tried this between 2015 and 2020 have quietly added managers back.
+**"No managers" experiments.** Several startups have tried eliminating engineering managers entirely. Some of the work distributes well to senior engineers. The rest — career development, performance feedback, conflict resolution, advocacy upward — doesn't, and tends to either fall on whichever senior engineer is most empathetic (a brutal tax on them) or simply not happen. Most companies that tried this between 2015 and 2020 have quietly added managers back. There is a comeback in 2026, since there is believe that AI can take over most of the managerial tasks, and hence flatten the organizations drammatically. There is some validity to the point, but hte jury is still out.
 
 The pattern in both cases: management is real work. Removing the formal role does not remove the work; it just makes the work invisible and unevenly distributed.
 
