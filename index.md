@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Introduction
 layout: home
 nav_order: 1
 hide_reading_time: true
@@ -16,7 +16,9 @@ hide_reading_time: true
 
 ## Why this book exists
 
-I wrote this handbook over several years as a collection of lessons learned managing engineering teams at early-stage startups (0–50 engineers). It was originally meant as a consistency document for new first-line managers — a way to align on how we lead people, run projects, and make resourcing decisions — so the org could scale without descending into chaos every time we hired another manager.
+I wrote this handbook over several years as a collection of lessons learned managing engineering teams at early-stage startups (0–50 engineers). It was originally meant as a consistency document for new first-line managers — a way to align on how we lead people, run projects, and make resourcing decisions — so the org could scale without descending into chaos every time we hired another manager. But my notes grew and grew, and I decided to collect them in this small handbook.
+
+As of 2026, AI is dramatically changing how we develop, ship, and support software products — but one thing I'm convinced isn't going to change is how we manage people, which is the main focus of this book.
 
 It is a working manager's manual, not a theory book. You won't find much debate over which leadership framework is "correct." You'll find what I did, why, and what I would do again.
 

@@ -24,17 +24,22 @@ Conway's Law — "organizations design systems that mirror their own communicati
 
 Before getting to the named organizational models, the first decision most startups face is how to split product-facing work from the infrastructure and internal-tooling work that makes product-facing work possible.
 
-At a small scale (under ~10 engineers), you don't split anything — everyone does everything. Once you cross that threshold, you start seeing three kinds of work and three kinds of teams emerge:
+At a small scale (under ~10 engineers), you don't split anything — everyone does everything. Once you cross that threshold, you start seeing these kinds of work and usually these four kinds of teams emerge:
 
 - **Product teams** — build customer-facing features. Own the roadmap items a PM cares about.
-- **Platform teams** — build the internal systems that product teams rely on: CI/CD, auth, data infrastructure, shared libraries. Their customers are other engineers.
+- **Platform teams** — build the internal systems that product teams rely on: build, CI/CD, auth, data infrastructure, shared libraries. Their customers are other engineers.
+- **Release teams** — package the final product, validate it, and produce all the supporting assets (e.g. docs). Often folded into the platform or product team, but in larger orgs it's a separate team.
 - **Support/ops teams** — handle the operational load: incident response, customer escalations, on-call, SRE work. Sometimes merged into platform, sometimes distinct.
 
 The mistake is usually either (a) spinning up a platform team too early, before there's enough shared pain to justify dedicated staffing, or (b) waiting too long and ending up with ten product teams all rebuilding the same authentication layer badly.
 
 A rough heuristic: spin up a platform team when you have at least three product teams whose work would be unblocked by shared infrastructure, and at least two full-time engineers' worth of sustained platform demand.
 
+There's a nascent belief in Silicon Valley that all functions can be delivered by a single team, with heavy AI support vibe-coding its way through the work. I disagree. For some products, the product team may be able to vibe-code the product itself; for others, the platform and support functions might collapse into a single team. But even when merged, and even when staffed with fewer people, the three roles remain important units of accountability. They may end up as roles rather than distinct teams — but still worth understanding and managing appropriately.
+
 ## Common organization models
+
+The literature on team structure is large, but most patterns reduce to a small number of canonical shapes. The most influential modern framing is **Team Topologies** by Matthew Skelton and Manuel Pais — it gave the industry a shared vocabulary for what good engineering orgs were already doing implicitly. The structures below are organized roughly from oldest and most familiar to most recent and most opinionated. None of them are right or wrong in the abstract; they are right or wrong for *your* stage, scale, and culture.
 
 ### 1. Functional / technology teams
 
@@ -81,20 +86,7 @@ graph TD;
     end;
 {% endmermaid %}
 
-**Pros**
-* Promotes technical excellence and specialization.
-* Clear career paths within technical domains.
-* Easier knowledge sharing between specialists.
-* Consistent standards and practices within domains.
-
-**Cons**
-* Creates handoffs and dependencies between teams.
-* End-to-end ownership is difficult.
-* Silos and communication barriers form naturally.
-* Slower delivery cycles.
-* Every product feature requires coordination across multiple teams.
-
-**Best for:** Early-stage organizations with specialized technical needs, or regulated environments that require strict separation of concerns.
+This shape promotes deep specialization and gives each discipline a clean career ladder, with consistent standards inside every domain. The cost is structural: every product feature requires coordination across multiple teams, handoffs and dependencies are inevitable, end-to-end ownership is hard to assign, and delivery cycles slow. Best fit: early-stage organizations with very specialized technical needs, or regulated environments that require strict separation of concerns.
 
 ### 2. Feature / product teams (cross-functional)
 
@@ -142,21 +134,7 @@ graph TD;
     end;
 {% endmermaid %}
 
-**Pros**
-* End-to-end ownership reduces handoffs.
-* Faster delivery and iteration cycles.
-* Better alignment with customer and business value.
-* Teams have autonomy to make decisions.
-* Shared understanding of product goals across disciplines.
-
-**Cons**
-* Technical standards may vary across teams.
-* Specialists may feel isolated from peers who share their discipline.
-* Duplicated work across teams is common.
-* Knowledge sharing requires deliberate effort.
-* Architecture can drift without cross-team alignment.
-
-**Best for:** Organizations focused on rapid product development and customer-facing features. This is the default shape most startups land on between 10 and 50 engineers.
+End-to-end ownership reduces handoffs, alignment with customer value is direct, and teams have the autonomy to make most decisions without coordinating across the org — which is why this is the default shape most startups land on between 10 and 50 engineers. The tradeoffs are real: technical standards drift across teams, specialists can feel isolated from peers in their discipline, the same problem gets solved three different ways, and architecture goes sideways without deliberate cross-team alignment.
 
 ### 3. Matrix organization
 
@@ -217,24 +195,11 @@ graph TD;
     class VP_PRODUCT,PROD_A,PROD_B,PROD_C product;
 {% endmermaid %}
 
-**Pros**
-* Balances technical excellence with product focus.
-* Provides a community for specialists.
-* Consistent practices across product teams.
-* Supports knowledge sharing and career development.
+Done well, a matrix balances technical excellence with product focus and gives specialists a real community across product teams. Done badly — and it is often done badly — the dual reporting becomes confusion, engineers face competing priorities every day, decision-making slows, and performance management is structurally harder because it's never quite clear who is accountable for what. Generally not worth the overhead below ~50 engineers.
 
-**Cons**
-* Dual reporting creates complexity and confusion.
-* Engineers face competing priorities.
-* More coordination overhead.
-* Decision-making slows.
-* Performance management is structurally harder.
+### 4. Team Topologies
 
-**Best for:** Larger organizations needing both functional excellence and product focus. Generally not worth the overhead below ~50 engineers.
-
-### 4. Team Topologies model
-
-A modern approach based on cognitive load and team interaction patterns.
+Skelton and Pais's framework is the modern lingua franca for thinking about team structure. It defines four team types and three interaction modes between them, organized around a single primary objective: minimize the cognitive load on the teams that deliver value to customers.
 
 {% mermaid %}
 graph TD;
@@ -290,27 +255,21 @@ graph TD;
     class CUSTOMER1,CUSTOMER2,CUSTOMER3 customer;
 {% endmermaid %}
 
-1. **Stream-aligned teams**: focused on a specific product or service stream, delivering value directly to customers.
-   * *Pros*: End-to-end ownership, customer focus, autonomy.
-   * *Cons*: May need significant platform support; risk of divergent practices.
+**Stream-aligned teams** are the primary unit. Each is aligned to a single, valuable stream of work — a product line, a customer segment, a user journey — and owns it end-to-end. Most teams in the org should be stream-aligned, and their goal is fast flow.
 
-2. **Enabling teams**: temporary teams that help stream-aligned teams overcome specific challenges.
-   * *Pros*: Accelerates learning, shares best practices.
-   * *Cons*: Can create dependencies; risk of becoming permanent.
+**Platform teams** build internal products that reduce cognitive load on stream-aligned teams. CI/CD, auth, data infrastructure, observability — anything where centralizing the work lets the rest of the org move faster. Their customers are other engineers, and they should be run with the same product discipline as a customer-facing team.
 
-3. **Complicated subsystem teams**: handle complex components that require specialized expertise.
-   * *Pros*: Manages complexity, allows specialization.
-   * *Cons*: Can become a bottleneck; risk of creating critical dependencies.
+**Enabling teams** are temporary. They embed in a stream-aligned team to help it acquire a new capability — a new tech stack, a new compliance posture, a new testing practice — and then leave. The risk is becoming permanent; if an enabling team isn't dissolving, you probably needed a platform team instead.
 
-4. **Platform teams**: build internal products that reduce cognitive load for stream-aligned teams.
-   * *Pros*: Improves productivity, reduces duplication, enforces standards.
-   * *Cons*: May not be responsive to stream-team needs; risk of overbuilding.
+**Complicated-subsystem teams** own components that genuinely require deep specialization — ML model training pipelines, real-time graphics engines, payment-rail integrations. They exist when the cost of every team learning the subsystem exceeds the cost of one team owning it.
 
-**Best for:** Organizations focused on delivery flow and optimizing cognitive load. Works well in the 30-100 engineer range.
+The three interaction modes — **collaboration**, **X-as-a-Service**, and **facilitating** — matter as much as the team types. Most dysfunction in a TT-shaped org doesn't come from picking the wrong types; it comes from teams interacting in the wrong mode for the situation. Two stream-aligned teams stuck in permanent "collaboration" should usually be merged. A platform team that never moves to X-as-a-Service mode hasn't yet productized its work.
+
+Best for: organizations focused on flow and reducing cognitive load. Works particularly well in the 30-100 engineer range, where the cracks in pure cross-functional start to show.
 
 ### 5. Spotify model (Squads, Tribes, Chapters, Guilds)
 
-A matrix-like structure that balances autonomy with alignment.
+A matrix-like structure that became briefly canonical in the mid-2010s and is now mostly a cautionary tale.
 
 {% mermaid %}
 graph TD;
@@ -400,126 +359,146 @@ graph TD;
     class FE1,FE2,FE3,FE4,BE1,BE2,BE3,BE4,QA1,QA2,QA3,QA4 engineer;
 {% endmermaid %}
 
-* **Squads:** cross-functional teams focused on specific product areas.
-* **Tribes:** collections of squads working in related areas.
-* **Chapters:** functional communities spanning across squads.
-* **Guilds:** communities of interest around specific topics.
+**Squads** are small cross-functional teams focused on specific product areas. **Tribes** are collections of squads working in related areas. **Chapters** are functional communities that span squads — all the backend engineers across squads form one chapter, with a chapter lead. **Guilds** are voluntary communities of interest around specific topics: security, observability, accessibility.
 
-**Pros**
-* Combines team autonomy with functional excellence.
-* Promotes learning and knowledge sharing.
-* Scalable as the organization grows.
-* Balances standardization with innovation.
+The model combines team autonomy with functional excellence and provides built-in mechanisms for knowledge sharing across squads. The honest assessment: it requires a strong engineering culture and accepts high communication overhead to work, and it is widely misimplemented. "We're doing Spotify" usually means "we read the blog post, renamed our teams squads, and changed nothing else." Famously, even Spotify has walked away from significant parts of this model.
 
-**Cons**
-* Complex to implement correctly.
-* Often misinterpreted or partially implemented ("we're doing Spotify" usually means "we read the blog post").
-* Requires strong engineering culture to work.
-* Depends on high trust and high communication overhead.
+### 6. Amazon two-pizza teams (and the API mandate)
 
-**Best for:** Larger organizations with strong engineering culture seeking a balance between autonomy and alignment. Famously, even Spotify has walked away from significant parts of this model.
-
-### 6. DevOps / full-stack teams
-
-Teams with complete ownership from development through operations.
+Amazon's structure is built around a constraint: every team should be small enough to be fed by two pizzas — roughly 6-10 people. Each team owns a service end-to-end (design, code, deploy, on-call) and is accountable for the metrics that service moves.
 
 {% mermaid %}
 graph TD;
-    CTO[CTO];
+    LEAD[Engineering Leadership];
 
-    CTO --> TEAM_A[Team A<br>Product X];
-    CTO --> TEAM_B[Team B<br>Product Y];
-    CTO --> TEAM_C[Team C<br>Product Z];
+    LEAD --> T1[Team 1<br>Service: Search<br>~6-10 people];
+    LEAD --> T2[Team 2<br>Service: Cart<br>~6-10 people];
+    LEAD --> T3[Team 3<br>Service: Recommendations<br>~6-10 people];
+    LEAD --> T4[Team 4<br>Service: Auth<br>~6-10 people];
+    LEAD --> T5[Team 5<br>Service: Payments<br>~6-10 people];
 
-    %% Team A members
-    TEAM_A --> A_LEAD[Team A Lead];
-    A_LEAD --> A_DEV1[Full-stack Dev 1];
-    A_LEAD --> A_DEV2[Full-stack Dev 2];
-    A_LEAD --> A_DEV3[Full-stack Dev 3];
-    A_LEAD --> A_SRE[SRE];
-    A_LEAD --> A_SEC[Security Eng];
+    T1 -->|API| T2;
+    T2 -->|API| T4;
+    T2 -->|API| T5;
+    T3 -->|API| T4;
+    T1 -->|API| T3;
 
-    %% Team B members
-    TEAM_B --> B_LEAD[Team B Lead];
-    B_LEAD --> B_DEV1[Full-stack Dev 1];
-    B_LEAD --> B_DEV2[Full-stack Dev 2];
-    B_LEAD --> B_DEV3[Full-stack Dev 3];
-    B_LEAD --> B_SRE[SRE];
-    B_LEAD --> B_SEC[Security Eng];
-
-    %% Team C members
-    TEAM_C --> C_LEAD[Team C Lead];
-    C_LEAD --> C_DEV1[Full-stack Dev 1];
-    C_LEAD --> C_DEV2[Full-stack Dev 2];
-    C_LEAD --> C_DEV3[Full-stack Dev 3];
-    C_LEAD --> C_SRE[SRE];
-    C_LEAD --> C_SEC[Security Eng];
-
-    %% Team A responsibilities
-    A_LEAD --> A_DEVELOP[Development];
-    A_LEAD --> A_TEST[Testing];
-    A_LEAD --> A_DEPLOY[Deployment];
-    A_LEAD --> A_MONITOR[Monitoring];
-    A_LEAD --> A_ONCALL[On-call];
-
-    %% Team B responsibilities
-    B_LEAD --> B_DEVELOP[Development];
-    B_LEAD --> B_TEST[Testing];
-    B_LEAD --> B_DEPLOY[Deployment];
-    B_LEAD --> B_MONITOR[Monitoring];
-    B_LEAD --> B_ONCALL[On-call];
-
-    %% Team C responsibilities
-    C_LEAD --> C_DEVELOP[Development];
-    C_LEAD --> C_TEST[Testing];
-    C_LEAD --> C_DEPLOY[Deployment];
-    C_LEAD --> C_MONITOR[Monitoring];
-    C_LEAD --> C_ONCALL[On-call];
-
-    subgraph "End-to-End Ownership";
-        A_DEVELOP;
-        A_TEST;
-        A_DEPLOY;
-        A_MONITOR;
-        A_ONCALL;
-
-        B_DEVELOP;
-        B_TEST;
-        B_DEPLOY;
-        B_MONITOR;
-        B_ONCALL;
-
-        C_DEVELOP;
-        C_TEST;
-        C_DEPLOY;
-        C_MONITOR;
-        C_ONCALL;
-    end;
-
+    classDef leadership fill:#fff3cd,stroke:#f0ad4e;
     classDef team fill:#d1ecf1,stroke:#0275d8;
-    classDef dev fill:#d4edda,stroke:#5cb85c;
-    classDef ops fill:#f8d7da,stroke:#d9534f;
-    classDef responsibility fill:#e2e3e5,stroke:#6c757d;
-
-    class TEAM_A,TEAM_B,TEAM_C,A_LEAD,B_LEAD,C_LEAD team;
-    class A_DEV1,A_DEV2,A_DEV3,B_DEV1,B_DEV2,B_DEV3,C_DEV1,C_DEV2,C_DEV3 dev;
-    class A_SRE,A_SEC,B_SRE,B_SEC,C_SRE,C_SEC ops;
-    class A_DEVELOP,A_TEST,A_DEPLOY,A_MONITOR,A_ONCALL,B_DEVELOP,B_TEST,B_DEPLOY,B_MONITOR,B_ONCALL,C_DEVELOP,C_TEST,C_DEPLOY,C_MONITOR,C_ONCALL responsibility;
+    class LEAD leadership;
+    class T1,T2,T3,T4,T5 team;
 {% endmermaid %}
 
-**Pros**
-* Full ownership reduces handoffs and dependencies.
-* Faster feedback loops and incident resolution.
-* Aligns incentives: build it, run it.
-* Reduces "throw it over the wall" mentality.
+The 2002 "API Mandate" attributed to Bezos pushed this further: every team must expose its functionality through an API; teams may not communicate via shared databases, file systems, or back channels; and the same APIs used internally must be designed as if they would one day be public. The rule forced strict service boundaries, which in turn enabled both AWS as an external product and Amazon's ability to scale to thousands of services without coordination death.
 
-**Cons**
-* Requires broad skill sets from team members.
-* On-call responsibilities can lead to burnout.
-* Difficult to maintain deep expertise in all areas.
-* Security and compliance harder without a dedicated function.
+Best for: organizations operating at scale where service ownership and API discipline are foundational. Adopting the form (small teams) without the substance (genuine service boundaries and API discipline) gets you the small-team coordination overhead without the autonomy benefits.
 
-**Best for:** Digital-native companies emphasizing operational excellence and rapid iteration.
+### 7. Netflix — freedom and responsibility
+
+Netflix's structure is often discussed as a culture more than a structure, but the structure is real and unusual. It assumes very high talent density (the famous "we hire only senior people who would be missed if they left" rule) and uses that density to operate with much less process than peer companies.
+
+{% mermaid %}
+graph TD;
+    LEAD[Senior Leadership<br>Sets context: priorities, strategy, principles];
+
+    LEAD -.->|Context, not control| T1[Team 1<br>High autonomy];
+    LEAD -.->|Context, not control| T2[Team 2<br>High autonomy];
+    LEAD -.->|Context, not control| T3[Team 3<br>High autonomy];
+    LEAD -.->|Context, not control| T4[Team 4<br>High autonomy];
+
+    T1 -.->|Loosely coupled| T2;
+    T2 -.->|Loosely coupled| T3;
+    T3 -.->|Loosely coupled| T4;
+
+    classDef leadership fill:#fff3cd,stroke:#f0ad4e;
+    classDef team fill:#d4edda,stroke:#5cb85c;
+    class LEAD leadership;
+    class T1,T2,T3,T4 team;
+{% endmermaid %}
+
+Concretely: small teams, high autonomy, and a "highly aligned, loosely coupled" coordination model — leadership sets clear context (priorities, strategy, principles) and trusts teams to make decisions inside that context without escalating. There is little formal process, no traditional PIPs (the "keeper test" is the substitute), and individual contributors often have scope that would require manager titles elsewhere.
+
+Best for: companies that can credibly maintain very high talent density. The model breaks badly when applied to teams with mixed seniority — the "freedom" half stops being safe to extend without the talent density to justify the "responsibility" half. Most companies that try to copy Netflix copy the freedom and skip the talent density, which is why the imitations rarely work.
+
+### 8. Valve Corporation — flat / cabals
+
+Valve has a famously flat structure. Its new-employee handbook (which leaked publicly in 2012 and remains illuminating) describes an organization with no managers, no formal reporting lines, and desks on wheels — engineers are expected to physically roll their desk to whichever project they think is highest-leverage.
+
+{% mermaid %}
+graph TD;
+    POOL[Pool of employees<br>No managers, no fixed reporting];
+
+    POOL --> CABAL_A[Cabal A<br>Project X];
+    POOL --> CABAL_B[Cabal B<br>Project Y];
+    POOL --> CABAL_C[Cabal C<br>Project Z];
+
+    CABAL_A -.->|Disbands when shipped| POOL;
+    CABAL_B -.->|Disbands when shipped| POOL;
+    CABAL_C -.->|Disbands when shipped| POOL;
+
+    classDef pool fill:#e2e3e5,stroke:#6c757d;
+    classDef cabal fill:#d1ecf1,stroke:#0275d8;
+    class POOL pool;
+    class CABAL_A,CABAL_B,CABAL_C cabal;
+{% endmermaid %}
+
+Projects are organized into ad hoc **cabals** — temporary cross-functional groups that form around a piece of work and dissolve when it ships. Leadership inside a cabal emerges informally rather than being assigned. Performance is evaluated through peer ranking, which has its own well-known issues.
+
+The Valve model is fascinating and almost entirely non-portable. It works because Valve is privately held, has a specific creative-product domain (games), hires very selectively, and has a strong cultural backbone reinforced over decades. Multiple companies that tried to copy it (or its close cousin Holacracy, see below) struggled. Useful to study as a counter-example to over-structured orgs, but not a template you can lift.
+
+### 9. Block — the multi-brand "ecosystem" model
+
+Strictly speaking this is not a team-level structure but a *company*-level one, included for contrast: it's what some structures look like when you stop trying to fit everything into one org chart.
+
+When Square renamed itself Block in 2021, Jack Dorsey reorganized the company around semi-autonomous "ecosystems": Cash App, Square, TIDAL, TBD, Spiral. Each ecosystem has its own leadership, runs its own roadmap, and shares Block's corporate functions but very little else.
+
+{% mermaid %}
+graph TD;
+    BLOCK[Block, Inc.<br>Corporate functions];
+
+    BLOCK --> CASH[Cash App<br>Consumer payments];
+    BLOCK --> SQ[Square<br>Merchant tools];
+    BLOCK --> TIDAL[TIDAL<br>Music streaming];
+    BLOCK --> TBD[TBD<br>Open finance];
+    BLOCK --> SP[Spiral<br>Bitcoin];
+
+    CASH --> CASH_ENG[Own engineering org];
+    SQ --> SQ_ENG[Own engineering org];
+    TIDAL --> TIDAL_ENG[Own engineering org];
+    TBD --> TBD_ENG[Own engineering org];
+    SP --> SP_ENG[Own engineering org];
+
+    classDef parent fill:#fff3cd,stroke:#f0ad4e;
+    classDef ecosystem fill:#d1ecf1,stroke:#0275d8;
+    classDef eng fill:#d4edda,stroke:#5cb85c;
+    class BLOCK parent;
+    class CASH,SQ,TIDAL,TBD,SP ecosystem;
+    class CASH_ENG,SQ_ENG,TIDAL_ENG,TBD_ENG,SP_ENG eng;
+{% endmermaid %}
+
+The pattern is essentially a holding-company structure expressed inside a single legal entity. Each ecosystem makes its own internal team-shape decisions; Cash App's engineering org is structured differently from Square's. The bet is that loose coupling at the company level enables tight coupling inside each ecosystem.
+
+Most managers reading this book will not be operating at this scale, but the frame is useful: if your company has multiple distinct products serving genuinely different markets, asking "should these be one org or two?" is sometimes the right question — and the answer is sometimes "two."
+
+### 10. Async-first / handbook-driven (GitLab)
+
+Not strictly a team shape, but a coordination model worth naming. GitLab is the canonical reference: a fully-remote, fully-async-first company where almost everything is written down in a public-facing handbook ([handbook.gitlab.com](https://handbook.gitlab.com)), most communication is async by default, and meetings are deliberately rare.
+
+The handbook is the single source of truth — for processes, decisions, values, even compensation formulas. Onboarding becomes self-serve. Coordination across time zones stops being a tax. Decisions leave a durable artifact future hires can find.
+
+The cost is real: writing things down takes more time than saying them, and the discipline to actually maintain the handbook is significant. But for distributed teams, the alternative — coordination via Slack and meetings — scales worse and worse the bigger the org gets.
+
+Best for: distributed organizations that want to operate at scale without coordination overhead taking over the work.
+
+### What didn't survive
+
+A few patterns that had their moment and largely didn't last, worth knowing if only because someone will eventually pitch them to you.
+
+**Holacracy.** A formal "self-management" framework with circles instead of teams and elaborate constitutional rules. Adopted by Zappos in 2014 amid much fanfare and largely walked back. The pattern repeated elsewhere: companies adopt the form, lose the implicit structure that the old org chart provided, and end up reinventing managers under new names.
+
+**"No managers" experiments.** Several startups have tried eliminating engineering managers entirely. Some of the work distributes well to senior engineers. The rest — career development, performance feedback, conflict resolution, advocacy upward — doesn't, and tends to either fall on whichever senior engineer is most empathetic (a brutal tax on them) or simply not happen. Most companies that tried this between 2015 and 2020 have quietly added managers back.
+
+The pattern in both cases: management is real work. Removing the formal role does not remove the work; it just makes the work invisible and unevenly distributed.
 
 ## Organizational evolution
 

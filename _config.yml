@@ -103,7 +103,7 @@ exclude:
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: 'Copyright &copy; 2024–2026 Marco Sanvido. Distributed under a <a href="https://github.com/msanvido/eng-managers-handbook/tree/main/LICENSE">Creative Commons License</a>.'
+footer_content: 'Copyright &copy; 2026 Marco Sanvido. Distributed under a <a href="https://github.com/msanvido/eng-managers-handbook/tree/main/LICENSE">Creative Commons License</a>.'
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
