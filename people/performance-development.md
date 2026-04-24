@@ -2,7 +2,7 @@
 title: Performance & Development
 layout: chapter
 nav_order: 3
-parent: II. People
+parent: II. People & Teams
 ---
 
 {: .no_toc }

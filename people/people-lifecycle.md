@@ -2,7 +2,7 @@
 title: "The People Lifecycle: Hiring, Onboarding, and Departures"
 layout: chapter
 nav_order: 2
-parent: II. People
+parent: II. People & Teams
 ---
 
 {: .no_toc }

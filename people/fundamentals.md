@@ -2,7 +2,7 @@
 title: People Management Fundamentals
 layout: chapter
 nav_order: 1
-parent: II. People
+parent: II. People & Teams
 ---
 
 {: .no_toc }
