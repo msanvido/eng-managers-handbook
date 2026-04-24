@@ -2,7 +2,7 @@
 title: Security and Compliance
 layout: chapter
 nav_order: 2
-parent: VI. Infrastructure
+parent: V. Infrastructure
 ---
 
 {: .no_toc }

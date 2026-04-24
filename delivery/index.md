@@ -1,12 +1,12 @@
 ---
-title: IV. Delivery
+title: III. Delivery
 layout: default
-nav_order: 5
+nav_order: 4
 has_children: true
 hide_reading_time: true
 ---
 
-<p class="part-index__eyebrow">Part IV</p>
+<p class="part-index__eyebrow">Part III</p>
 
 # Delivery
 

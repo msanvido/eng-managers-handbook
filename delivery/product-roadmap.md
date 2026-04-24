@@ -2,7 +2,7 @@
 title: Product and Roadmap Management
 layout: chapter
 nav_order: 1
-parent: IV. Delivery
+parent: III. Delivery
 ---
 
 {: .no_toc }
@@ -367,7 +367,7 @@ The answer is not "no." The answer is "yes, through the right channel." If you b
 
 ## Organization and product strategy
 
-Team structure shapes product architecture. This is covered in depth in [Team Structure and Organization Design]({{ '/org-design/team-structure.html' | relative_url }}) — but the key observation applies here too:
+Team structure shapes product architecture. This is covered in depth in [Team Structure and Organization Design]({{ '/people/team-structure.html' | relative_url }}) — but the key observation applies here too:
 
 - **Monolithic product → single team.** Everyone knows the whole codebase. Coordination is easy. Scales to ~10 engineers.
 - **Microservices → multiple teams.** Teams own specific services. Clear boundaries and contracts. Required for ~20+ engineers.

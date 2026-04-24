@@ -2,7 +2,7 @@
 title: Managing in the AI Era
 layout: chapter
 nav_order: 5
-parent: IV. Delivery
+parent: III. Delivery
 ---
 
 {: .no_toc }

@@ -33,20 +33,19 @@ If you manage 200+ engineers across multiple layers, this book will feel too tac
 
 ## How to use it
 
-Read it start-to-finish the first time — the parts build on each other. After that, it's a reference. The **[First 90 Days]({{ '/foundations/first-90-days.html' | relative_url }})** chapter is the most-bookmarked page for new EMs. The chapters on **[Performance & Development]({{ '/people/performance-development.html' | relative_url }})** and **[Team Structure]({{ '/org-design/team-structure.html' | relative_url }})** are the ones experienced managers come back to most.
+Read it start-to-finish the first time — the parts build on each other. After that, it's a reference. The **[First 90 Days]({{ '/foundations/first-90-days.html' | relative_url }})** chapter is the most-bookmarked page for new EMs. The chapters on **[Performance & Development]({{ '/people/performance-development.html' | relative_url }})** and **[Team Structure]({{ '/people/team-structure.html' | relative_url }})** are the ones experienced managers come back to most.
 
 Fork it. Adapt it. Disagree with it. Management is not about copying someone else's playbook — it's about building your own and being deliberate about it.
 
 ## What's inside
 
-The book is organized into six parts, in the order you'll actually need them:
+The book is organized into five parts, in the order you'll actually need them:
 
 - **Part I — [Foundations]({{ '/foundations/' | relative_url }})**: What management is, what it isn't, and how to survive your first 90 days.
-- **Part II — [People]({{ '/people/' | relative_url }})**: Fundamentals, hiring, onboarding, performance, and development.
-- **Part III — [Org Design]({{ '/org-design/' | relative_url }})**: How to structure teams so the work actually flows.
-- **Part IV — [Delivery]({{ '/delivery/' | relative_url }})**: Product, projects, operations, communication, and the new realities of managing in the AI era.
-- **Part V — [Resources]({{ '/resources/' | relative_url }})**: Budgets, compensation, headcount planning.
-- **Part VI — [Infrastructure]({{ '/infrastructure/' | relative_url }})**: What an EM needs to know about DevOps and security.
+- **Part II — [People & Teams]({{ '/people/' | relative_url }})**: Fundamentals, hiring, onboarding, performance, development, and how to structure teams so the work actually flows.
+- **Part III — [Delivery]({{ '/delivery/' | relative_url }})**: Product, projects, operations, communication, and the new realities of managing in the AI era.
+- **Part IV — [Resources]({{ '/resources/' | relative_url }})**: Budgets, compensation, headcount planning.
+- **Part V — [Infrastructure]({{ '/infrastructure/' | relative_url }})**: What an EM needs to know about DevOps and security.
 
 Plus a [References]({% link references.md %}) appendix with every book, framework, and tool I found worth pointing to.
 

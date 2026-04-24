@@ -1,8 +1,8 @@
 ---
 title: Team Structure & Organization Design
 layout: chapter
-nav_order: 1
-parent: III. Org Design
+nav_order: 4
+parent: II. People & Teams
 ---
 
 {: .no_toc }

@@ -160,7 +160,7 @@ Not "encourage the use of vacation time." Concretely: **name it privately** ("I'
 
 New managers underestimate this. You are the last line of defense between your team and whatever is pushing on them from above — unrealistic roadmaps, customer escalations, executive panic. That pressure doesn't disappear when you shield your team from it. It lands on you.
 
-Have a manager you can vent to; if you don't, find a peer EM at another company and trade venting sessions — the friction of explaining context makes it less cathartic, which is fine. Protect at least one deep-work block a week, calendar it, and guard it. Notice when you've stopped being curious — that's the earliest warning sign of burnout for a manager, because when you stop wanting to know why someone's upset, you're already too deep in. And take the vacation: you set the example, and a team whose manager never disconnects will not disconnect either.
+Have a manager you can vent to; if you don't, find a peer EM at another company and trade venting sessions. Protect at least one deep-work block a week, calendar it, and guard it. Notice when you've stopped being curious — that's the earliest warning sign of burnout for a manager, because when you stop wanting to know why someone's upset, you're already too deep in. And take the vacation: you set the example, and a team whose manager never disconnects will not disconnect either.
 
 ## Reassignments
 
@@ -191,8 +191,6 @@ Some companies don't believe in PIPs and prefer to move directly to separation. 
 ## Separation
 
 This is the last resort. There is no way back, and the morale blast radius has to be considered.
-
-### When separation is necessary
 
 Separation becomes necessary when performance issues haven't been resolved through a PIP, when there has been a violation of the code of conduct or company policies, when a role is being eliminated as part of a layoff, or by mutual agreement that it simply isn't a fit.
 

@@ -1,12 +1,12 @@
 ---
-title: VI. Infrastructure
+title: V. Infrastructure
 layout: default
-nav_order: 7
+nav_order: 6
 has_children: true
 hide_reading_time: true
 ---
 
-<p class="part-index__eyebrow">Part VI</p>
+<p class="part-index__eyebrow">Part V</p>
 
 # Infrastructure
 

@@ -2,7 +2,7 @@
 title: CI/CD and DevOps
 layout: chapter
 nav_order: 1
-parent: VI. Infrastructure
+parent: V. Infrastructure
 ---
 
 {: .no_toc }
@@ -21,7 +21,7 @@ This chapter is not a DevOps handbook. It's the subset of CI/CD and DevOps pract
 Three things matter most to get right as a manager:
 
 1. **You are responsible for the investment level.** How much engineering time goes into pipeline, tooling, and operational maturity is a choice you make — not a choice that happens to you. Under-invest and you'll lose velocity to flakiness and slow feedback loops; over-invest and you'll build infrastructure for a scale you're not yet at.
-2. **You are responsible for the team structure that handles this work.** Dedicated platform team? Embedded in product teams? Rotating ownership? Each of these answers produces different outcomes — see [Team Structure]({{ '/org-design/team-structure.html' | relative_url }}).
+2. **You are responsible for the team structure that handles this work.** Dedicated platform team? Embedded in product teams? Rotating ownership? Each of these answers produces different outcomes — see [Team Structure]({{ '/people/team-structure.html' | relative_url }}).
 3. **You are responsible for setting the bar on operational maturity.** The DORA metrics below are the right place to start. If your team doesn't know its deployment frequency or change failure rate, that's a you-problem, not a DevOps-team problem.
 
 The rest of this chapter is what you need to know to do those three things well.
