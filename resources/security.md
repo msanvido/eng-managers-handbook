@@ -1,8 +1,8 @@
 ---
 title: Security and Compliance
 layout: chapter
-nav_order: 2
-parent: V. Infrastructure
+nav_order: 3
+parent: IV. Resources & Infrastructure
 ---
 
 # Security and Compliance

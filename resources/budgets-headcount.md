@@ -2,7 +2,7 @@
 title: Budgets and Headcount
 layout: chapter
 nav_order: 1
-parent: IV. Resources
+parent: IV. Resources & Infrastructure
 ---
 
 # Budgets and Headcount

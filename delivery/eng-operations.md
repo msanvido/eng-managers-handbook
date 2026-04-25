@@ -282,4 +282,4 @@ The on-call rotation is also one of the best places to build judgment in mid-lev
 - Change failure rate.
 - Team satisfaction.
 
-The DORA metrics are the canonical version of the first three — see [CI/CD & DevOps]({{ '/infrastructure/devops.html' | relative_url }}#metrics-and-kpis) for detail. Team satisfaction is the one everyone forgets to measure, and it's the leading indicator for the others.
+The DORA metrics are the canonical version of the first three — see [CI/CD & DevOps]({{ '/resources/devops.html' | relative_url }}#metrics-and-kpis) for detail. Team satisfaction is the one everyone forgets to measure, and it's the leading indicator for the others.

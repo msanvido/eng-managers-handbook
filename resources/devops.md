@@ -1,8 +1,8 @@
 ---
 title: CI/CD and DevOps
 layout: chapter
-nav_order: 1
-parent: V. Infrastructure
+nav_order: 2
+parent: IV. Resources & Infrastructure
 ---
 
 # CI/CD and DevOps Practices
@@ -131,7 +131,7 @@ Developer experience is one of the highest-leverage investments you can make, an
 - Artifact signing and verification.
 - Container image scanning.
 
-See [Security and Compliance]({{ '/infrastructure/security.html' | relative_url }}) for broader treatment.
+See [Security and Compliance]({{ '/resources/security.html' | relative_url }}) for broader treatment.
 
 ## A realistic implementation guide
 

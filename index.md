@@ -41,13 +41,12 @@ Fork it. Adapt it. Disagree with it. Management is not about copying someone els
 
 ## What's inside
 
-The book is organized into five parts, in the order you'll actually need them:
+The book is organized into four parts, in the order you'll actually need them:
 
 - **Part I — [Foundations]({{ '/foundations/' | relative_url }})**: What management is, what it isn't, and how to survive your first 90 days.
 - **Part II — [People & Teams]({{ '/people/' | relative_url }})**: Fundamentals, hiring, onboarding, performance, development, and how to structure teams so the work actually flows.
-- **Part III — [Delivery]({{ '/delivery/' | relative_url }})**: Product, projects, operations, communication, and the new realities of managing in the AI era.
-- **Part IV — [Resources]({{ '/resources/' | relative_url }})**: Budgets, compensation, headcount planning.
-- **Part V — [Infrastructure]({{ '/infrastructure/' | relative_url }})**: What an EM needs to know about DevOps and security.
+- **Part III — [Building the Product]({{ '/delivery/' | relative_url }})**: Product, projects, operations, communication, and the new realities of managing in the AI era.
+- **Part IV — [Resources & Infrastructure]({{ '/resources/' | relative_url }})**: Budgets and headcount, CI/CD and DevOps, security and compliance.
 
 Plus a [References]({% link references.md %}) appendix with every book, framework, and tool I found worth pointing to.
 

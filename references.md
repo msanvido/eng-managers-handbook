@@ -26,7 +26,7 @@ This section provides links to practical templates, frameworks, and resources fo
 
 **Performance Improvement Plans (PIPs)**
 - [Performance Improvement Plan Template](https://www.shrm.org/resourcesandtools/tools-and-samples/how-to-guides/pages/performanceimprovementplan.aspx) - SHRM template and guidance
-- [PIP Best Practices Guide](https://lattice.com/library/how-to-write-a-performance-improvement-plan-pip) - Step-by-step guide
+- [PIP Best Practices Guide](https://lattice.com/library/performance-improvement-plan) - Step-by-step guide
 
 ### Leveling and Career Development
 
@@ -37,25 +37,17 @@ This section provides links to practical templates, frameworks, and resources fo
 - [Rent the Runway Engineering Ladder](https://dresscode.renttherunway.com/blog/ladder) - Detailed engineering ladder
 - [Dropbox Engineering Career Framework](https://dropbox.github.io/dbx-career-framework/) - Interactive career framework
 
-**30-60-90 Day Plans**
-- [First 90 Days Template](https://hypercontext.com/blog/management-skills/30-60-90-day-plan) - Comprehensive onboarding template
-- [Manager's First 90 Days](https://medium.com/@ethanjjackson/your-first-90-days-as-cto-c1933c7d25d1) - For new managers and leaders
-- [Engineering Onboarding Template](https://github.com/readme/guides/onboarding-template) - GitHub's approach
-
 ### Decision-Making Frameworks
 
 **RACI/DARE Models**
 - [RACI vs DARE](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/the-limits-of-raci-and-a-better-way-to-make-decisions) - McKinsey's comparison
-- [RACI Template](https://www.atlassian.com/team-playbook/plays/raci) - Atlassian's RACI playbook
-- [Decision-Making Framework Template](https://miro.com/templates/decision-making-framework/) - Visual decision-making tools
+- [RACI Chart Guide](https://www.atlassian.com/work-management/project-management/raci-chart) - Atlassian's RACI overview
+- [Decision Matrix Template](https://miro.com/templates/decision-matrix/) - Visual decision-making tool
 
 ### Meetings and Communication
 
 **Meeting Templates**
-- [1-on-1 Meeting Templates](https://hypercontext.com/features/one-on-one-meeting-template) - Structured 1:1 agendas
 - [Team Meeting Templates](https://fellow.app/meeting-templates/) - Various meeting types
-- [All-Hands Meeting Template](https://lattice.com/library/how-to-run-an-all-hands-meeting) - Company-wide meeting structure
-- [Async Standup Templates](https://geekbot.com/blog/daily-standup-meeting-template/) - For distributed teams
 
 **Retrospective Frameworks**
 - [Fun Retrospectives](https://www.funretrospectives.com/) - Collection of retrospective formats
@@ -66,12 +58,8 @@ This section provides links to practical templates, frameworks, and resources fo
 
 **Interview Guides**
 - [STAR Method Interview Guide](https://www.themuse.com/advice/star-interview-method) - Behavioral interview framework
-- [Topgrading Interview Questions](https://business.linkedin.com/talent-solutions/resources/interviewing-talent/topgrading) - Comprehensive interviewing approach
+- [Topgrading Interview Questions](https://topgrading.com/about/) - Comprehensive interviewing approach
 - [GitLab Interview Process](https://about.gitlab.com/handbook/hiring/interviewing/) - Complete hiring handbook
-
-**Job Description Templates**
-- [Software Engineering Job Descriptions](https://github.com/readme/guides/technical-recruiting) - GitHub's guide
-- [Engineering Manager Job Description](https://lattice.com/library/engineering-manager-job-description) - Role-specific templates
 
 ### Team Management
 
@@ -82,8 +70,6 @@ This section provides links to practical templates, frameworks, and resources fo
 
 **Vacation and Time-Off Tracking**
 - Use your HRIS system (BambooHR, Rippling, Gusto, etc.)
-- [PTO Tracker Template](https://www.smartsheet.com/pto-tracker-templates) - Spreadsheet templates
-- [Time-Off Policy Examples](https://www.bamboohr.com/resources/hr-glossary/paid-time-off-policy) - Policy templates
 
 **Code of Conduct**
 - [Contributor Covenant](https://www.contributor-covenant.org/) - Widely-adopted open-source code of conduct
@@ -92,29 +78,24 @@ This section provides links to practical templates, frameworks, and resources fo
 
 **Remote Work Policies**
 - [GitLab Remote Work Handbook](https://about.gitlab.com/company/culture/all-remote/guide/) - Comprehensive remote-first guide
-- [Basecamp Remote Work Guide](https://basecamp.com/guides/how-we-work) - Practical remote work practices
-- [Remote Work Policy Template](https://www.shrm.org/resourcesandtools/tools-and-samples/policies/pages/remote-work-policy.aspx) - SHRM template
 
 ### Technical Debt and Engineering Metrics
 
 **Technical Debt Assessment**
 - [Riot Games: Taxonomy of Tech Debt](https://engineering.riotgames.com/news/taxonomy-tech-debt) - Impact, cost-to-fix, and *contagion* — the clearest treatment of how tech debt spreads
 - [Technical Debt Quadrant](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html) - Martin Fowler's framework
-- [Tech Debt Assessment Template](https://github.com/ericclemmons/tech-debt) - GitHub template for tracking
-- [Measuring Technical Debt](https://queue.acm.org/detail.cfm?id=2721297) - ACM article
 
 **Engineering Metrics**
 - [DORA Metrics](https://www.atlassian.com/devops/frameworks/dora-metrics) - DevOps Research and Assessment metrics
 - [SPACE Framework](https://queue.acm.org/detail.cfm?id=3454124) - Developer productivity framework
-- [Engineering Metrics Dashboard](https://www.jellyfish.co/blog/engineering-metrics-dashboard) - Examples of useful metrics
+- [Jellyfish on DORA Metrics](https://www.jellyfish.co/blog/dora-metrics) - Practical look at the DORA framework
 
 ### Diversity, Equity, and Inclusion
 
 **DEI Resources**
 - [Project Include](https://projectinclude.org/) - Comprehensive DEI recommendations for tech
-- [DEI Resource Library](https://www.paradigmiq.com/resources/) - Articles, research, and guides
+- [Paradigm IQ](https://www.paradigmiq.com/) - DEI strategy firm with research, articles, and guides
 - [Inclusive Leadership Resources](https://www.catalyst.org/topics/inclusive-leadership/) - Research-backed practices
-- [Unconscious Bias Training](https://diversity.ucsf.edu/resources/unconscious-bias) - UCSF resources
 
 ### Team Workflow Examples
 
@@ -201,7 +182,6 @@ This section provides links to practical templates, frameworks, and resources fo
 
 **Podcasts**
 - [Manager Tools](https://www.manager-tools.com/) - Practical management advice
-- [The Engineering Leadership Podcast](https://www.engineeringleadership.xyz/) - Interviews with engineering leaders
 - [Soft Skills Engineering](https://softskills.audio/) - Q&A on non-technical topics
 
 ## Framework and Tool Resources
@@ -209,9 +189,9 @@ This section provides links to practical templates, frameworks, and resources fo
 **Management Frameworks**
 - [Manager README Generator](https://managerreadme.com/) - Create your management style document
 - [Manager Resources by Lara Hogan](https://larahogan.me/resources/) - Comprehensive collection
-- [Know Your Team Guides](https://knowyourteam.com/m/index) - Practical management guides
+- [Canopy (formerly Know Your Team)](https://canopy.is/) - Practical management guides and tooling
 
 **Compensation and Leveling**
 - [Pave Compensation Data](https://www.pave.com/) - Real-time compensation benchmarking
 - [OpenComp](https://www.opencomp.com/) - Compensation management platform
-- [Carta Equity Calculator](https://carta.com/equity/learn/equity-calculator/) - Understanding equity value
+- [Carta Equity Learning Center](https://carta.com/equity/learn/) - Understanding equity value

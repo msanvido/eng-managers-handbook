@@ -39,7 +39,7 @@ The specific layers vary by market, but for SaaS solutions they typically includ
 - Budget $50-100k for first-time certification.
 - Assign a compliance owner (doesn't have to be full-time initially).
 
-See [Security & Compliance]({{ '/infrastructure/security.html' | relative_url }}) for depth on this layer.
+See [Security & Compliance]({{ '/resources/security.html' | relative_url }}) for depth on this layer.
 
 **2. User management**
 
