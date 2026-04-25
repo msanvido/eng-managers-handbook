@@ -1,18 +1,11 @@
 ---
-title: Managing in the AI Era
+title: Building in the AI Era
 layout: chapter
 nav_order: 5
-parent: III. Delivery
+parent: III. Building the Product
 ---
 
-{: .no_toc }
-# Managing Engineering Teams in the AI Era
-
-{: .no_toc }
-## Table of Contents
-
-1. TOC
-{:toc}
+# Building Product in the AI Era
 
 ## Why this chapter exists
 

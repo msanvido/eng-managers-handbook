@@ -2,17 +2,10 @@
 title: Product and Roadmap Management
 layout: chapter
 nav_order: 1
-parent: III. Delivery
+parent: III. Building the Product
 ---
 
-{: .no_toc }
 # Product and Roadmap Management
-
-{: .no_toc }
-## Table of Contents
-
-1. TOC
-{:toc}
 
 ## What makes a great product: the onion model
 

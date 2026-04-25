@@ -5,14 +5,7 @@ nav_order: 4
 parent: II. People & Teams
 ---
 
-{: .no_toc }
 # Team Structure and Organization Design
-
-{: .no_toc }
-## Table of Contents
-
-1. TOC
-{:toc}
 
 ## Why this matters
 
@@ -39,7 +32,7 @@ There's a nascent belief in Silicon Valley that all functions can be delivered b
 
 ## Common organization models
 
-The literature on team structure is large, but most patterns reduce to a small number of canonical shapes. The most influential modern framing is **Team Topologies** by Matthew Skelton and Manuel Pais — it gave the industry a shared vocabulary for what good engineering orgs were already doing implicitly. The structures below are organized roughly from oldest and most familiar to most recent and most opinionated. None of them are right or wrong in the abstract; they are right or wrong for *your* stage, scale, and culture.
+The literature on team structure is large, but most patterns reduce to a small number of canonical shapes. The most influential modern framing is **Team Topologies** by Matthew Skelton and Manuel Pais — it gave the industry a shared vocabulary for what good engineering orgs were already doing implicitly. The structures below are organized roughly from oldest and most familiar to most recent and most opinionated. None of them are right or wrong in the abstract; they are right or wrong for *your* stage, scale, and culture. What works at one stage or scale of the company often stops working later on, so building some org elasticity — the willingness and ability to change structure as needs change — matters as much as picking the right shape today.
 
 ### 1. Functional / technology teams
 
@@ -448,7 +441,7 @@ The Valve model is fascinating and almost entirely non-portable. It works becaus
 
 ### 9. Block — from hierarchy to intelligence
 
-Block has been more public than most about a sharp departure from conventional org structure. In a 2025 post, [*From Hierarchy to Intelligence*](https://block.xyz/inside/from-hierarchy-to-intelligence), the company describes an explicit attempt to organize itself as a "company-wide intelligence" — replacing the information-routing function of middle management with AI-mediated coordination.
+Block has been more public than most about a sharp departure from conventional org structure. In a 2026 post, [*From Hierarchy to Intelligence*](https://block.xyz/inside/from-hierarchy-to-intelligence), the company describes an explicit attempt to organize itself as a "company-wide intelligence" — replacing the information-routing function of middle management with AI-mediated coordination.
 
 The argument runs roughly: organizations have been bound for two thousand years by the same constraint — a manager can effectively oversee 3-8 people, so any growth past that point forces layers, and layers slow information flow. Block's bet is that AI can now perform the parts of management that were really about routing context, freeing the org to operate without permanent middle management.
 

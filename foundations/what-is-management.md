@@ -5,14 +5,7 @@ nav_order: 1
 parent: I. Foundations
 ---
 
-{: .no_toc }
 # What Engineering Management Is
-
-{: .no_toc }
-## Table of Contents
-
-1. TOC
-{:toc}
 
 ## The job, in one sentence
 
@@ -87,7 +80,7 @@ See [servant leadership](https://en.wikipedia.org/wiki/Servant_leadership) if yo
 
 As you get more senior, you'll move further and further from hands-on technical work. This is inevitable and mostly correct — you shouldn't be writing production code on the critical path. But drift too far and you'll lose the intuitions that make you effective: for what's easy vs. hard, for what's a real estimate vs. a polite one, for what "this is going to take another week" actually means. And with current AI tooling it's easier than ever to stay close to the trenches — there are no excuses anymore.
 
-### How to stayin the trenches
+### How to stay in the trenches
 
 Things that have helped me keep enough skin in the technical game without getting in the way:
 

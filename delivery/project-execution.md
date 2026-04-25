@@ -2,17 +2,10 @@
 title: Project Execution
 layout: chapter
 nav_order: 2
-parent: III. Delivery
+parent: III. Building the Product
 ---
 
-{: .no_toc }
 # Project Execution
-
-{: .no_toc }
-## Table of Contents
-
-1. TOC
-{:toc}
 
 ## Overview
 

@@ -5,14 +5,7 @@ nav_order: 1
 parent: II. People & Teams
 ---
 
-{: .no_toc }
 # People Management Fundamentals
-
-{: .no_toc }
-## Table of Contents
-
-1. TOC
-{:toc}
 
 ## The job, stated plainly
 

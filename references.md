@@ -1,17 +1,11 @@
 ---
 title: Appendix — References
-layout: default
+layout: chapter
 nav_order: 99
 hide_reading_time: true
 ---
-{: .no_toc }
+
 # References
-
-{: .no_toc }
-## Table of Contents
-
-1. TOC
-{:toc}
 
 ## Templates and Resources
 

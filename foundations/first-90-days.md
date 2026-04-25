@@ -5,14 +5,7 @@ nav_order: 2
 parent: I. Foundations
 ---
 
-{: .no_toc }
 # Your First 90 Days as an Engineering Manager
-
-{: .no_toc }
-## Table of Contents
-
-1. TOC
-{:toc}
 
 ## Why this chapter exists
 

@@ -3,7 +3,7 @@
 // ---------------------------------------------------------------------------
 
 .main-content {
-  max-width: 48rem;
+  max-width: 64rem;
   line-height: 1.65;
 
   p, li {
@@ -51,6 +51,35 @@
   &__icon {
     color: #28a745;
     margin-right: 0.3rem;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Sidebar — fit the long site title and give chapter pages more room
+// ---------------------------------------------------------------------------
+
+.site-title {
+  display: block !important;
+  height: auto !important;
+  white-space: normal !important;
+  text-overflow: clip !important;
+  overflow: visible !important;
+  line-height: 1.25;
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  font-size: 1rem;
+  word-break: break-word;
+}
+
+@media (min-width: 50rem) {
+  .side-bar {
+    width: 18rem;
+  }
+
+  .main {
+    margin-left: 18rem;
   }
 }
 

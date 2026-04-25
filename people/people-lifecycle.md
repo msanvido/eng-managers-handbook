@@ -5,14 +5,7 @@ nav_order: 2
 parent: II. People & Teams
 ---
 
-{: .no_toc }
 # The People Lifecycle: Hiring, Onboarding, and Departures
-
-{: .no_toc }
-## Table of Contents
-
-1. TOC
-{:toc}
 
 ## Hiring
 

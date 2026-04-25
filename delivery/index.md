@@ -1,5 +1,5 @@
 ---
-title: III. Delivery
+title: III. Building the Product
 layout: default
 nav_order: 4
 has_children: true
@@ -8,11 +8,11 @@ hide_reading_time: true
 
 <p class="part-index__eyebrow">Part III</p>
 
-# Delivery
+# Building the Product
 
 <p class="part-index__lede">You are accountable for what the team ships and when. Not what gets built — that's Product's call — but who builds it, how, and when it lands.</p>
 
-Delivery is the part of the job that's most visible to everyone outside engineering. It's also the part that new managers are most likely to over-index on, because the signals are clear and the feedback is fast. Don't let the visibility mislead you: the work in [Part II — People]({{ '/people/' | relative_url }}) is the one that determines whether this part succeeds.
+Building the product is the part of the job that's most visible to everyone outside engineering. It's also the part that new managers are most likely to over-index on, because the signals are clear and the feedback is fast. Don't let the visibility mislead you: the work in [Part II — People & Teams]({{ '/people/' | relative_url }}) is the one that determines whether this part succeeds.
 
 ## What this part covers
 

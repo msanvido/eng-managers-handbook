@@ -5,14 +5,7 @@ nav_order: 3
 parent: II. People & Teams
 ---
 
-{: .no_toc }
 # Performance & Development
-
-{: .no_toc }
-## Table of Contents
-
-1. TOC
-{:toc}
 
 ## Overview
 

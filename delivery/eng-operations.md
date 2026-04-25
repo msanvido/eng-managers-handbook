@@ -2,17 +2,10 @@
 title: Engineering Operations
 layout: chapter
 nav_order: 3
-parent: III. Delivery
+parent: III. Building the Product
 ---
 
-{: .no_toc }
 # Engineering Operations
-
-{: .no_toc }
-## Table of Contents
-
-1. TOC
-{:toc}
 
 ## Overview
 

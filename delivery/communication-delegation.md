@@ -2,17 +2,10 @@
 title: Communication and Delegation
 layout: chapter
 nav_order: 4
-parent: III. Delivery
+parent: III. Building the Product
 ---
 
-{: .no_toc }
 # Communication and Delegation
-
-{: .no_toc }
-## Table of Contents
-
-1. TOC
-{:toc}
 
 ## Overview
 

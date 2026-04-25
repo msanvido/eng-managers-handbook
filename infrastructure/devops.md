@@ -5,14 +5,7 @@ nav_order: 1
 parent: V. Infrastructure
 ---
 
-{: .no_toc }
 # CI/CD and DevOps Practices
-
-{: .no_toc }
-## Table of Contents
-
-1. TOC
-{:toc}
 
 ## What the EM actually owns here
 

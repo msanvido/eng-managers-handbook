@@ -5,14 +5,7 @@ nav_order: 2
 parent: V. Infrastructure
 ---
 
-{: .no_toc }
 # Security and Compliance
-
-{: .no_toc }
-## Table of Contents
-
-1. TOC
-{:toc}
 
 ## What the EM needs to know
 

@@ -5,14 +5,7 @@ nav_order: 1
 parent: IV. Resources
 ---
 
-{: .no_toc }
 # Budgets and Headcount
-
-{: .no_toc }
-## Table of Contents
-
-1. TOC
-{:toc}
 
 ## Overview
 
