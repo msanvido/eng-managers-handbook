@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: The First Dirty Dozen
 layout: home
 nav_order: 1
 hide_reading_time: true
